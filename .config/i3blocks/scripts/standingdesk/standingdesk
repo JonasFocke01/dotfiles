@@ -1,0 +1,20 @@
+#!/bin/bash
+
+current_hour=$(date +%-H)
+
+if ((current_hour % 2 == 0)); then
+    condition_output="true"
+else
+    condition_output="false"
+fi
+
+current_minute=$(date +%-M)
+time_left=$((60-current_minute))
+
+if [ "$condition_output" = "true" ]; then
+    # $icon="<i class='/home/jonas/.config/i3blocks/scripts/standingdesk/stand-here.svg'></i>"
+    echo "stand (${time_left}m)"
+else
+    # $icon="<i class='/home/jonas/.config/i3blocks/scripts/standingdesk/do-not-stand-here.svg'></i>"
+    echo "sit (${time_left}m)"
+fi

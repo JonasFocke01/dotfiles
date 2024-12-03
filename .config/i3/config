@@ -1,0 +1,96 @@
+set $mod Mod4
+floating_modifier $mod
+
+font pango:JetBrainsMono Nerd Font 14
+
+exec --no-startup-id nm-applet
+exec_always picom
+exec_always feh --bg-fill --randomize "$HOME/.config/i3/wallpaper"
+
+bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Shift+q kill
+
+bindsym $mod+h focus left
+bindsym $mod+j focus down
+bindsym $mod+k focus up
+bindsym $mod+l focus right
+
+bindsym $mod+Left move left
+bindsym $mod+Down move down
+bindsym $mod+Up move up
+bindsym $mod+Right move right
+
+bindsym $mod+b split h
+bindsym $mod+v split v
+bindsym $mod+f fullscreen toggle
+
+bindsym $mod+Shift+space floating toggle
+bindsym $mod+space focus mode_toggle
+
+# Use this as a blueprint for actual windows i want to let float
+# for_window [title="my_title"] floating enable
+
+set $ws1 "wasteland"
+set $ws2 "wasteland"
+set $ws3 "wasteland"
+set $ws4 "wasteland"
+set $ws5 "wasteland"
+set $ws6 "gaming"
+set $ws7 "musik"
+set $ws8 "work_1"
+set $ws9 "work_2"
+set $ws10 "work_3"
+
+bindsym $mod+1 workspace $ws1
+bindsym $mod+2 workspace $ws2
+bindsym $mod+3 workspace $ws3
+bindsym $mod+4 workspace $ws4
+bindsym $mod+5 workspace $ws5
+bindsym $mod+6 workspace $ws6
+bindsym $mod+7 workspace $ws7
+bindsym $mod+8 workspace $ws8
+bindsym $mod+9 workspace $ws9
+bindsym $mod+0 workspace $ws10
+
+bindsym $mod+Shift+1 move container to workspace $ws1
+bindsym $mod+Shift+2 move container to workspace $ws2
+bindsym $mod+Shift+3 move container to workspace $ws3
+bindsym $mod+Shift+4 move container to workspace $ws4
+bindsym $mod+Shift+5 move container to workspace $ws5
+bindsym $mod+Shift+6 move container to workspace $ws6
+bindsym $mod+Shift+7 move container to workspace $ws7
+bindsym $mod+Shift+8 move container to workspace $ws8
+bindsym $mod+Shift+9 move container to workspace $ws9
+bindsym $mod+Shift+0 move container to workspace $ws10
+
+bindsym $mod+Shift+r restart
+
+set $mode_system System suspend (MOD+s), reboot (MOD+r), shutdown (CTRL+s)
+mode "$mode_system" {
+    bindsym $mod+s exec --no-startup-id $HOME/.config/i3/script_lock.sh, mode "default"
+    bindsym $mod+r exec --no-startup-id systemctl reboot, mode "default"
+    bindsym Ctrl+s exec --no-startup-id systemctl poweroff -i, mode "default"
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+bindsym $mod+BackSpace mode "$mode_system"
+
+mode "resize" {
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
+
+        bindsym Return mode "default"
+        bindsym Escape mode "default"
+}
+bindsym $mod+r mode "resize"
+
+hide_edge_borders smart
+
+bar {
+    status_command SCRIPT_DIR=/home/jonas/.config/i3blocks/scripts/ i3blocks
+}
+
+bindsym Print exec --no-startup-id "flameshot gui"
