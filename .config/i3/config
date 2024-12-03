@@ -4,7 +4,6 @@ floating_modifier $mod
 font pango:JetBrainsMono Nerd Font 14
 
 exec --no-startup-id nm-applet
-exec_always picom
 exec_always feh --bg-fill --randomize "$HOME/.config/i3/wallpaper"
 
 bindsym $mod+Return exec i3-sensible-terminal
