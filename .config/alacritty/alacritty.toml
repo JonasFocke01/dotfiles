@@ -16,4 +16,4 @@ save_to_clipboard = true
 hide_when_typing = true
 
 [keyboard]
-bindings = [ { key = "/", mods = "Shift", mode = "Vi", action = "SearchForward" } ]
+bindings = [ { key = "/", mods = "Shift", mode = "Vi", action = "SearchBackward" } ]
