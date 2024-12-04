@@ -88,8 +88,23 @@ bindsym $mod+r mode "resize"
 
 hide_edge_borders smart
 
+client.focused #6E738D #6E738D #1E2030
+client.focused_inactive #24273A #24273A #6E738D
+client.unfocused #24273A #24273A #6E738D
+client.urgent #ED8796 #ED8796 #1E2030
+
 bar {
     status_command SCRIPT_DIR=/home/jonas/.config/i3blocks/scripts/ i3blocks
+    # mode hide
+    font pango:JetBrainsMono Nerd Font 12
+    workspace_min_width 75
+    colors {
+        background #1E2030
+        separator #939ab7
+        focused_workspace #363A4F #8AADF4 #1E2030
+        inactive_workspace #363A4F #1E2030 #CAD3F5
+        urgent_workspace #363A4F #ED8796 #1E2030
+    }
 }
 
 bindsym Print exec --no-startup-id "flameshot gui"
