@@ -1,0 +1,19 @@
+import = [
+    "~/.config/alacritty/catppuccin-macchiato.toml",
+]
+
+[font]
+normal = { family = "Monocraft", style = "Regular" }
+bold = { family = "Monocraft", style = "Bold" }
+italic = { family = "Monocraft", style = "Italic" }
+bold_italic = { family = "Monocraft", style = "Bold-Italic" }
+size = 7.5
+
+[selection]
+save_to_clipboard = true
+
+[mouse]
+hide_when_typing = true
+
+[keyboard]
+bindings = [ { key = "/", mods = "Shift", mode = "Vi", action = "SearchForward" } ]
