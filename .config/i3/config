@@ -67,17 +67,6 @@ bindsym $mod+Shift+0 move container to workspace $ws10
 
 bindsym $mod+Shift+r restart
 
-set $mode_system System suspend (MOD+s), reboot (MOD+r), shutdown (CTRL+s)
-mode "$mode_system" {
-    bindsym $mod+s exec --no-startup-id $HOME/.config/i3/script_lock.sh, mode "default"
-    bindsym $mod+r exec --no-startup-id systemctl reboot, mode "default"
-    bindsym Ctrl+s exec --no-startup-id systemctl poweroff -i, mode "default"
-
-    bindsym Return mode "default"
-    bindsym Escape mode "default"
-}
-bindsym $mod+BackSpace mode "$mode_system"
-
 mode "resize" {
         bindsym Left resize shrink width 10 px or 10 ppt
         bindsym Down resize grow height 10 px or 10 ppt

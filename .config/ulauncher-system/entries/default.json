@@ -1,0 +1,14 @@
+{
+    "lock": {
+        "command": "$HOME/.config/ulauncher-system/entries/script_lock.sh"
+    },
+    "hibernate": null,
+    "suspend": null,
+    "windows": {
+        "name": "Restart to Windows",
+        "description": "Restart to the dualboot-windows",
+        "icon": "windows",
+        "aliases": ["windows"],
+        "command": "notify-send 'unimplemented!'"
+    }
+}
