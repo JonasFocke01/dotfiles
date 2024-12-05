@@ -92,8 +92,8 @@ bindsym $mod+r mode "resize"
 hide_edge_borders smart
 
 client.focused #6E738D #6E738D #1E2030
-client.focused_inactive #24273A #24273A #6E738D
-client.unfocused #24273A #24273A #6E738D
+client.focused_inactive #24273A #1E2030 #6E738D
+client.unfocused #24273A #1E2030 #6E738D
 client.urgent #ED8796 #ED8796 #1E2030
 
 bar {
