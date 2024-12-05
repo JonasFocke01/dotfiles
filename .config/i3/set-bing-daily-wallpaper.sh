@@ -1,5 +1,7 @@
 #!/bin/sh
 
+feh --bg-fill $HOME/.config/i3/default-wallpaper.jpg
+
 while ! ping -c 1 1.1.1.1 ; do sleep 1 ; done
 
 urlpath=$( \
