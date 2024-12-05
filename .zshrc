@@ -10,6 +10,7 @@ ZSH_THEME="robbyrussell"
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
 
+plugins=(git fzf) # TODO: zoxide
 
 source $ZSH/oh-my-zsh.sh
 
