@@ -1,0 +1,4 @@
+name = Catppuccin Macchiato Dark
+description = based on Volantes Cursors
+version = "v1.0.2" # x-release-please-version
+cursors_directory = hyprcursors
