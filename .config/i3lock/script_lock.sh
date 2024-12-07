@@ -2,9 +2,7 @@
 
 flameshot full -c -p /tmp/raw_screen.png
 convert /tmp/raw_screen.png -blur 0x20 /tmp/blured_screen.png
-convert /tmp/blured_screen.png $HOME/.config/ulauncher-system/entries/lock.png -gravity NorthWest -composite -matte /tmp/lockscreen.png
-
-systemctl suspend
+convert /tmp/blured_screen.png $HOME/.config/i3lock/lock.png -gravity NorthWest -composite -matte /tmp/lockscreen.png
 
 i3lock -c 181818 -i /tmp/lockscreen.png -t -n
 
