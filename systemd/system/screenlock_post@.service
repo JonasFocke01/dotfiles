@@ -1,0 +1,12 @@
+[Unit]
+Description=Invokes i3lock
+After=suspend.target
+
+[Service]
+User=jonas
+Type=forking
+Environment=DISPLAY=:0
+ExecStart=/home/jonas/.config/i3lock/script_lock_post.sh
+
+[Install]
+WantedBy=suspend.target
