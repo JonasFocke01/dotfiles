@@ -87,7 +87,7 @@ client.urgent #ED8796 #ED8796 #1E2030
 
 bar {
     status_command SCRIPT_DIR=/home/jonas/.config/i3blocks/scripts/ i3blocks
-    # mode hide
+    mode hide
     font pango:JetBrainsMono Nerd Font 12
     workspace_min_width 75
     colors {
