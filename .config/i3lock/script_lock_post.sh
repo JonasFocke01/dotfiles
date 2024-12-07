@@ -1,6 +1,5 @@
 #!/bin/bash
 
-# i3lock -c 181818 -i /tmp/lockscreen.png -t -n
 i3lock -c 181818 -i $HOME/.config/i3lock/lockscreen.png -t -n
 
 rm /tmp/raw_screen.png /tmp/raw_screen.png /tmp/lockscreen.png
