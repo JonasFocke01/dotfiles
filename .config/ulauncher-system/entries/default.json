@@ -1,6 +1,9 @@
 {
     "lock": null,
     "hibernate": null,
+    "suspend": {
+        "command": "$HOME/.config/i3lock/script_lock_prepare_lockimage.sh && systemctl suspend"
+    },
     "windows": {
         "name": "Restart to Windows",
         "description": "Restart to the dualboot-windows",
