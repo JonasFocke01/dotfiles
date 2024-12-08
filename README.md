@@ -10,9 +10,13 @@ This repo contains three things.
 To use the full potential of this script, you need to be on a debian-based distro.
 
 - Clone this repo to your home directory.
-`cd $HOME && git clone git@github.com:JonasFocke01/dotfiles.git`
+```bash
+cd $HOME && git clone git@github.com:JonasFocke01/dotfiles.git
+```
 
 - Make the `debian-installer.sh` executable and, _well_, execute it.
-`cd dotfiles && chmod +x debian-installer.sh && ./install-debian.sh`
+```bash
+cd dotfiles && chmod +x debian-installer.sh && ./install-debian.sh
+```
 
 This will then, step-by-step, install and adjust the distro to my liking. Again, the script asks before each step, so this wont do things you do not want.
