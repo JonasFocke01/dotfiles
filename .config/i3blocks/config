@@ -97,4 +97,5 @@ interval=5
 
 [battery-plus]
 instance=BAT1
-interval=30
+_USE_BAT_GRADIENT=true
+_HIDE_OVER_PERCENTAGE=86
