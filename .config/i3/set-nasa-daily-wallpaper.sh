@@ -7,8 +7,10 @@ response=$(curl -s "$API_URL")
 
 hd_image_url=$(echo "$response" | jq -r '.hdurl')
 
+if [ -e "/tmp/nasa-wallpaper.jpg" ]; then
+    feh --bg-fill /tmp/nasa-wallpaper.jpg
+fi
+
 curl -o /tmp/nasa-wallpaper.jpg "$hd_image_url"
 
 feh --bg-fill /tmp/nasa-wallpaper.jpg
-
-rm /tmp/nasa-wallpaper.jpg
