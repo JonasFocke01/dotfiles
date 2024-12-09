@@ -1,6 +1,6 @@
 #!/bin/bash
 
-API_KEY="EgH2nOsaD5w2fQzWztXGhVnAf0h0o2qJvpR64VHv"
+API_KEY=$(cat nasa-api-key)
 API_URL="https://api.nasa.gov/planetary/apod?api_key=${API_KEY}"
 
 response=$(curl -s "$API_URL")
