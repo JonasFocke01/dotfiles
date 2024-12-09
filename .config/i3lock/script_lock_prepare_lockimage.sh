@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# This is a placeholder for the jit prepare script
+# This is a temporary replacement for `script-lock-pre.sh`.
 #
 rm /tmp/raw_screen.png
 flameshot full -c -p /tmp/raw_screen.png
