@@ -1,7 +1,7 @@
 export ZSH="$HOME/.oh-my-zsh"
 export EDITOR='nvim'
 
-ZSH_THEME="cypher"
+ZSH_THEME="peepcode"
 
 COMPLETION_WAITING_DOTS="true"
 DISABLE_UNTRACKED_FILES_DIRTY="true"
