@@ -112,6 +112,12 @@ if [ $confirmation = "y" ]; then
   	sudo systemctl daemon-reload
  	sudo systemctl enable screenlock_pre@jonas.service
   	sudo systemctl enable screenlock_post@jonas.service
+	sudo apt install xclip -y
+    echo
+	echo "Please go to the website in your clipboard and request an api key. After that, please provide it to the script."
+	echo "https://api.nasa.gov/" | xclip -sel clip
+    read nasa_api_key;
+    echo "$nasa_api_key" > $HOME/dotfiles/.config/i3/nasa-api-key
 fi
 
 echo "Install neovim? (y/n)"
