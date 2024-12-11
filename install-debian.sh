@@ -107,8 +107,8 @@ if [ $confirmation = "y" ]; then
         pavucontrol \
 	 	copyq \
    		ranger
- 	sudo cp dotfiles/systemd/system/screenlock_pre@.service /etc/systemd/system/screenlock_pre@.service
- 	sudo cp dotfiles/systemd/system/screenlock_post@.service /etc/systemd/system/screenlock_post@.service
+ 	sudo cp dotfiles/.config/systemd/user/screenlock_pre@.service /etc/systemd/system/screenlock_pre@.service
+ 	sudo cp dotfiles/.ocnfig/systemd/user/screenlock_post@.service /etc/systemd/system/screenlock_post@.service
   	sudo systemctl daemon-reload
  	sudo systemctl enable screenlock_pre@jonas.service
   	sudo systemctl enable screenlock_post@jonas.service
