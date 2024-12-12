@@ -6,7 +6,6 @@ telescope.setup {
     }
 }
 local builtin = require('telescope.builtin')
-vim.keymap.set('n', '<leader>s', builtin.git_files, {})
 vim.keymap.set('n', '<leader>d', builtin.live_grep, {})
 vim.keymap.set('n', '<leader>xx', builtin.diagnostics, {})
 vim.keymap.set('n', '<leader>c', builtin.resume, {})
