@@ -7,8 +7,6 @@ require('lazy').setup({
     },
 
     "nvim-treesitter/nvim-treesitter",
-
-    "nvim-treesitter/playground",
     "mbbill/undotree",
     "tpope/vim-fugitive",
     "nvim-treesitter/nvim-treesitter-context",
@@ -28,7 +26,6 @@ require('lazy').setup({
             { 'hrsh7th/cmp-path' },
             { 'saadparwaiz1/cmp_luasnip' },
             { 'hrsh7th/cmp-nvim-lsp' },
-            { 'hrsh7th/cmp-nvim-lua' },
         }
     },
 
