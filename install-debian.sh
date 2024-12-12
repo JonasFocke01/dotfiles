@@ -82,10 +82,10 @@ if [ $confirmation = "y" ]; then
 	# mv Desktop/zsh-config/tmp .zshrc
 fi
 
-echo "Install utils? (y/n)"
+echo "Install utils (recomended)? (y/n)"
 read confirmation;
 if [ $confirmation = "y" ]; then
-	sudo apt install tlp libudev-dev -y
+	sudo apt install tlp libudev-dev imagemagick -y
 fi
 
 echo "Install i3 custom de? (y/n)"
