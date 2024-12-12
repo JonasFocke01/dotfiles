@@ -71,17 +71,6 @@ if [ $confirmation = "y" ]; then
         .bashrc
 fi
 
-echo "Add shortcut to reboot into windows? (y/n)"
-read confirmation;
-if [ $confirmation = "y" ]; then
-        echo "Warning: This does not work correctly, so this step is skipped."
-	echo "Please refer to the install script to manually do this."
- 	echo "TODO: Fix this step. (Or remove it in favour of fixing the ulauncher option)"
-	# windowsBoot=$(sudo efibootmgr -v | grep Windows | grep -o '000[0-9]')
-	# sed "s/0002/$windowsBoot/g" Desktop/zsh-config/.zshrc > Desktop/zsh-config/tmp
-	# mv Desktop/zsh-config/tmp .zshrc
-fi
-
 echo "Install utils (recomended)? (y/n)"
 read confirmation;
 if [ $confirmation = "y" ]; then

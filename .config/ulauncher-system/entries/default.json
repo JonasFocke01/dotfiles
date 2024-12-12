@@ -9,6 +9,6 @@
         "description": "Restart to the dualboot-windows",
         "icon": "windows",
         "aliases": ["windows"],
-        "command": "notify-send 'unimplemented!'"
+        "command": "sudo efibootmgr -n $(efibootmgr -v | grep Windows | grep -o '000[0-9]') && systemctl reboot"
     }
 }
