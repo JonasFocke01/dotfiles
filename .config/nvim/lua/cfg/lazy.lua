@@ -139,10 +139,6 @@ require('lazy').setup({
     },
 
     {
-        'nvim-telescope/telescope-symbols.nvim'
-    },
-
-    {
         'AckslD/nvim-neoclip.lua',
         dependencies = {
             { 'kkharji/sqlite.lua',           module = 'sqlite' },
