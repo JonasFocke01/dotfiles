@@ -1,1 +1,1 @@
-vim.keymap.set("n", "<leader>.", "<cmd>Telescope symbols<CR>");
+-- TODO: remove file (the de should do that)
