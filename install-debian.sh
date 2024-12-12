@@ -93,7 +93,6 @@ read confirmation;
 if [ $confirmation = "y" ]; then
 	sudo apt install -y \
  		i3-wm \
-   		i3bar \
    		i3blocks \
      	i3lock \
         network-manager-gnome \
