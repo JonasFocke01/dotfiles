@@ -107,8 +107,8 @@ if [ $confirmation = "y" ]; then
         pavucontrol \
 	 	copyq \
    		ranger
- 	sudo cp dotfiles/.config/systemd/user/screenlock_pre@.service /etc/systemd/system/screenlock_pre@.service
- 	sudo cp dotfiles/.ocnfig/systemd/user/screenlock_post@.service /etc/systemd/system/screenlock_post@.service
+ 	sudo cp $HOME/dotfiles/.config/systemd/user/screenlock_pre@.service /etc/systemd/system/screenlock_pre@.service
+ 	sudo cp $HOME/dotfiles/.config/systemd/user/screenlock_post@.service /etc/systemd/system/screenlock_post@.service
   	sudo systemctl daemon-reload
  	sudo systemctl enable screenlock_pre@jonas.service
   	sudo systemctl enable screenlock_post@jonas.service
@@ -200,7 +200,7 @@ fi
 echo "Configure Systemd config? (y/n)"
 read confirmation;
 if [ $confirmation = "y" ]; then
- 	sudo cp dotfiles/systemd/logind.conf /etc/systemd/logind.conf
+ 	sudo cp $HOME/dotfiles/.config/systemd/logind.conf /etc/systemd/logind.conf
 fi
 
 echo "Install arduino-cli? (y/n)"
