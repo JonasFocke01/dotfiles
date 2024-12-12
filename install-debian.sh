@@ -220,6 +220,7 @@ if [ $confirmation = "y" ]; then
     cd $HOME/dotfiles
     stow --adopt .
     git restore .
+    fc-cache -f -v
 fi
 
 echo "Remove default home dir clutter? (y/n)"
