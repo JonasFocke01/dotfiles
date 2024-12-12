@@ -14,7 +14,6 @@ source $ZSH/oh-my-zsh.sh
 
 alias ls='exa -l --git --icons -a'
 alias logout='pkill -SIGKILL -u jonas'
-alias bios='systemctl reboot --firmware-setup'
 alias vim='nvim'
 alias ':q'=exit
 
