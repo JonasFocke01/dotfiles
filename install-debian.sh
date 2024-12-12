@@ -91,6 +91,7 @@ fi
 echo "Install i3 custom de? (y/n)"
 read confirmation;
 if [ $confirmation = "y" ]; then
+        sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ulauncher -y && sudo apt update
 	sudo apt install -y \
  		i3-wm \
    		i3blocks \
