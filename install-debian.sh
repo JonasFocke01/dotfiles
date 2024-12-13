@@ -20,7 +20,7 @@ echo "create new ssh key? (y/n)"
 read confirmation;
 if [ $confirmation = "y" ]; then
     cd $HOME
-	ssh-keygen -f /home/jonas/.ssh/id_rsa -N ''
+	ssh-keygen -f $HOME/.ssh/id_rsa -N ''
 	sudo apt install xclip -y
 	echo "Go to the Github login page and log in. The URL is in your clipboard"
 	echo "https://github.com/login" | xclip -sel clip
@@ -100,8 +100,8 @@ if [ $confirmation = "y" ]; then
  	sudo cp $HOME/dotfiles/.config/systemd/user/screenlock_pre@.service /etc/systemd/system/screenlock_pre@.service
  	sudo cp $HOME/dotfiles/.config/systemd/user/screenlock_post@.service /etc/systemd/system/screenlock_post@.service
   	sudo systemctl daemon-reload
- 	sudo systemctl enable screenlock_pre@jonas.service
-  	sudo systemctl enable screenlock_post@jonas.service
+ 	sudo systemctl enable screenlock_pre@$SUDO_USER.service
+  	sudo systemctl enable screenlock_post@$SUDO_USER.service
 	sudo apt install xclip -y
     echo
 	echo "Please go to the website in your clipboard and request an api key. After that, please provide it to the script."
