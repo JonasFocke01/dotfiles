@@ -75,6 +75,7 @@ echo "Install utils (recomended)? (y/n)"
 read confirmation;
 if [ $confirmation = "y" ]; then
 	sudo apt install tlp libudev-dev imagemagick -y
+ 	sudo apt remove nano
 fi
 
 echo "Install i3 custom de? (y/n)"
