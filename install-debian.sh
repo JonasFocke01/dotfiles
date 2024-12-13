@@ -108,6 +108,7 @@ if [ $confirmation = "y" ]; then
 	echo "https://api.nasa.gov/" | xclip -sel clip
     read nasa_api_key;
     echo "$nasa_api_key" > $HOME/dotfiles/.config/i3/nasa-api-key
+    echo "\n#Custom entries\n\n$SUDO_USER ALL=(ALL:ALL) NOPASSWD: /usr/bin/efibootmgr" >> /etc/sudoers
 fi
 
 echo "Install neovim? (y/n)"
