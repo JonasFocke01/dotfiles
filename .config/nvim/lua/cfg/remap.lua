@@ -26,6 +26,8 @@ vim.keymap.set("n", "dd", '"_dd')
 vim.keymap.set("n", "s", '"_s')
 vim.keymap.set("x", "c", '"_c')
 
+-- yank while commenting codeblock
+vim.keymap.set("v", "gy", "ygvgc")
 
 -- Q wont do what it does
 vim.keymap.set("n", "Q", "<nop>")
