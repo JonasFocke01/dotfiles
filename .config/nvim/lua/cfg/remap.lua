@@ -39,4 +39,4 @@ end)
 -- make it rain
 vim.keymap.set("n", "<leader>mr", "<cmd>CellularAutomaton make_it_rain<CR>");
 
-vim.keymap.set("n", "H", "s<CR><ESC>")
+vim.keymap.set("n", "H", "s<CR><ESC>f ")
