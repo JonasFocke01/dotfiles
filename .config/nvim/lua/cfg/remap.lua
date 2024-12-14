@@ -26,8 +26,6 @@ vim.keymap.set("n", "dd", '"_dd')
 vim.keymap.set("n", "s", '"_s')
 vim.keymap.set("x", "c", '"_c')
 
--- yank into system register
-vim.keymap.set({ "n", "v" }, "<leader>y", [["+y]])
 
 -- Q wont do what it does
 vim.keymap.set("n", "Q", "<nop>")
