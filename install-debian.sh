@@ -154,10 +154,10 @@ if [ $confirmation = "y" ]; then
     echo "//tigerly/Allgemeine\040Daten /mnt/tigerly cifs username=manfild,password=DSsiKul24Sd,vers=2.0 0 0" | sudo tee -a /etc/fstab
 fi
 
-echo "Install nodeversionmanager? (y/n)"
+echo "Install fnm (node version manager)? (y/n)"
 read confirmation;
 if [ $confirmation = "y" ]; then
-	wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+	cargo install fnm
 fi
 
 echo "Install spotify? (y/n)"
