@@ -154,7 +154,7 @@ if [ $confirmation = "y" ]; then
     echo "//tigerly/Allgemeine\040Daten /mnt/tigerly cifs username=manfild,password=DSsiKul24Sd,vers=2.0 0 0" | sudo tee -a /etc/fstab
 fi
 
-echo "Install fnm (node version manager)? (y/n)"
+echo "Install fnm (fast node manager)? (y/n)"
 read confirmation;
 if [ $confirmation = "y" ]; then
 	cargo install fnm
