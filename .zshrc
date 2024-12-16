@@ -13,7 +13,6 @@ ZSH_AUTOSUGGEST_STRATEGY=(completion history)
 source $ZSH/oh-my-zsh.sh
 
 alias ls='exa -l --git --icons -a'
-alias logout='pkill -SIGKILL -u jonas'
 alias vim='nvim'
 alias ':q'=exit
 
