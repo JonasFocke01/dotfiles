@@ -4,13 +4,13 @@
     "suspend": {
         "command": "$HOME/.config/i3lock/script_lock_prepare_lockimage.sh && systemctl suspend"
     },
-    },
     "logout": {
         "name": "Logout",
         "description": "Logout to switch user or de",
         "icon": "logout",
         "aliases": ["Logout"],
         "command": "pkill -SIGKILL -u $(whoami)"
+    },
     "windows": {
         "name": "Restart to Windows",
         "description": "Restart to the dualboot-windows",
