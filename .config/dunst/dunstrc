@@ -4,7 +4,7 @@
 
     ### Geometry ###
     width = (0, 600)
-    origin = top-center
+    origin = bottom-right
     scale = 0
     notification_limit = 0
 
