@@ -49,8 +49,7 @@ min_width=CPU 100.00%
 
 [battery-plus]
 instance=BAT1
-_USE_BAT_GRADIENT=true
-_HIDE_OVER_PERCENTAGE=86
+interval=30
 
 [time]
 command=date '+%d-%m-%Y %H:%M:%S'
