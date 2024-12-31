@@ -96,7 +96,7 @@ if [ $confirmation = "y" ]; then
         ulauncher \
         pavucontrol \
 	 	copyq \
-   		ranger
+     		udiskie
  	sudo cp $HOME/dotfiles/.config/systemd/user/screenlock_pre@.service /etc/systemd/system/screenlock_pre@.service
  	sudo cp $HOME/dotfiles/.config/systemd/user/screenlock_post@.service /etc/systemd/system/screenlock_post@.service
   	sudo systemctl daemon-reload
