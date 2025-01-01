@@ -61,6 +61,7 @@ local function codeline_num()
                     -- To exclude a dir, just add a line containing `"-g '!*/xyz/*' " ..`
                     "-g '!*/gdtf_parser/*' " ..
                     "-g '!gdtf_parser/*' " ..
+                    "-g '!shows/*' " ..
                     "| xargs wc -l 2>/dev/null " ..
                     "| tail -n1 " ..
                     "| awk 'END {print $1}'")
