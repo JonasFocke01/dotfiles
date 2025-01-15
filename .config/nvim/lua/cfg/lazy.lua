@@ -106,11 +106,16 @@ require('lazy').setup({
         config = function()
             require('tiny-inline-diagnostic').setup(
                 {
-                    throttle = 20,
-                    multiple_diag_under_cursor = true,
-                    multilines = true,
-                    show_all_diags_on_cursorline = true,
-                    enable_on_insert = true,
+                    options = {
+                        throttle = 20,
+                        multiple_diag_under_cursor = true,
+                        show_all_diags_on_cursorline = true,
+                        enable_on_insert = true,
+                        multilines = {
+                            enabled = true,
+                            always_show = true,
+                        },
+                    }
                 }
             )
         end
