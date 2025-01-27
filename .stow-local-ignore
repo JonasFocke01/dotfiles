@@ -1,6 +1,6 @@
 .git
 .gitignore
 README.md
-LICENCSE
+LICENSE
 install-debian.sh
 .config/systemd
