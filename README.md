@@ -1,6 +1,6 @@
 # About
 
-This project contain
+This project contains
 - all my dotfiles
 - the corresponding software
 - instructions to build that software
