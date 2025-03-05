@@ -3,7 +3,7 @@ hipatterns.setup({
     highlighters = {
         todo = {
             pattern = '%f[%w]()TODO()%f[%W]',
-            group = 'MiniHipatternsTodo'
+            group = 'Search'
         },
 
         hex_color = hipatterns.gen_highlighter.hex_color()
