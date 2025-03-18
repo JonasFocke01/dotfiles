@@ -92,7 +92,6 @@ local function codeline_num()
     end
 end
 
-
 require('lualine').setup {
     options = {
         icons_enabled = false,
