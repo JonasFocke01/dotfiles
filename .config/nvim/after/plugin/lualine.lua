@@ -39,7 +39,7 @@ local debounce_codeline_num = 255
 local debounce_result_codeline_num = ''
 local function codeline_num()
     if debounce_codeline_num == 255 then
-        if string.find(get_root_dir(), "repos") or string.find(get_root_dir(), ".config") then
+        if string.find(get_root_dir(), "repos") or string.find(get_root_dir(), "dotfiles") then
             -- To add new filetypes, just add a line containing `"-g '*.xy' " ..`
             local rg_include_files = "" ..
                 "-g '*.rs' " ..
