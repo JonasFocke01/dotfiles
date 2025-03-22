@@ -68,6 +68,7 @@ Version numbers are a snapshot of my current setup.
 - spotify 1.2....
 - vlc 3.0.16
 - Desktop Environment
+    - xorg: `xorg-server xorg-apps xorg-minimal xinit xterm xcape`
     - i3-wm ?
     - i3blocks ?
     - i3lock 2.13
@@ -79,10 +80,12 @@ Version numbers are a snapshot of my current setup.
     - fzf 0.29
     - fd-find ?
     - ulauncher 5.15.7
-    - pavucontrol 5.0
+    - audio: `alsa-utils alsa-plugins alsa-lib alsa-firmware pavucontrol`
     - copyq 6.0.1
     - udiskie 2.4.2
     - btop ?
+    - wifi TODO
+    - bluetooth TODO
     - Create a nasa api key on `https://api.nasa.gov/` and save it to `dotiles/.config/i3/nasa-api-key`
 - Use dotfiles
     - stow 2.3.1
