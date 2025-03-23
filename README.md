@@ -71,7 +71,7 @@ Version numbers are a snapshot of my current setup.
 - Desktop Environment
     - xorg: `xorg-server xorg-apps xorg-minimal xinit xterm xcape`
     - i3-wm ?
-    - i3blocks ?
+    - i3blocks ? (voidlinux fix: `ln -s /etc/sv/dbus /var/service/`)
     - i3lock 2.13
     - network-manager-gnome ?
     - dunst 1.12.1
