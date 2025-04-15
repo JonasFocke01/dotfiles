@@ -32,7 +32,9 @@ Version numbers are a snapshot of my current setup.
     cargo install elf2uf2-rs && \
     cargo install rustup target add thumbv6m-none-eabi && \
     cargo install probe-rs && \
+    curl --proto '=https' --tlsv1.2 -LsSf https://github.com/probe-rs/probe-rs/releases/latest/download/probe-rs-tools-installer.sh | sh
     ```
+    - follow instructons on (this site)[https://probe.rs/docs/getting-started/probe-setup/]
     - libudev-dev
 
 - Shell
