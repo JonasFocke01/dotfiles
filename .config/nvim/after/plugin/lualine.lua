@@ -56,7 +56,8 @@ local function codeline_num()
                 "-g '*.md' " ..
                 "-g '*.js' " ..
                 "-g '*.ts' " ..
-                "-g '*.go' "
+                "-g '*.go' " ..
+                "-g '*.pio' "
             -- To exclude a dir, just add a line containing `"-g '!*/xyz/*' " ..`
             local rg_exclude_dirs = "" ..
                 "-g '!*/gdtf_parser/*' " ..
