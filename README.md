@@ -13,7 +13,8 @@ Version numbers are a snapshot of my current setup.
 - Do not forget to `update && upgrade` a new system
 - Add user to sudoers file and disable password promt from efibootmgr
     - Add `USERNAME ALL=(ALL:ALL)` to the end with visudo
-    - Add ` NOPASSWD: /usr/bin/efibootmgr" >> /etc/sudoers` to that line to disable the password prompt for that user for the efibootmgr. (Required for some ulauncher options)
+    - For each program, that we want to execute without typing in a password, we need another `USERNAME ALL=(ALL:ALL) NOPASSWD: /path/to/executable` at the END of the file
+  	- on void, we need at least `/usr/bin/zzz` and `/usr/bin/shutdown -P now`
 - Firefox 133.0.3
 - Create ssh key
     1. `ssh-keygen -f $HOME/.ssh/id_rsa -N ''`
