@@ -75,6 +75,7 @@ Version numbers are a snapshot of my current setup.
     - i3-wm ?
     - i3blocks ? (voidlinux fix: `ln -s /etc/sv/dbus /var/service/`)
     - i3lock 2.13
+    - lightdm
     - network-manager-gnome ?
     - dunst 1.12.1
     - flameshot 11.0.0
@@ -144,3 +145,7 @@ troubleshooting tips for when using some barebones os like voidlinux, archlinux.
 				```
 	- dbus-session missing:
  		Replace `Exec=i3` with `Exec=dbus-run-session i3`
+   	- autologin with lightdm:
+    		edit `/etc/lightdm/lightdm.conf` and uncomment the lines
+      			`autologin-user=` and change it to `autologin-user=USERNAME`
+	 		`autologin-user-timeout=0`
