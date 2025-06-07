@@ -1,6 +1,7 @@
 {
     "lock": null,
     "hibernate": null,
+    "bios": null,
     "suspend": {
         "command": "$HOME/.config/i3lock/script_lock_prepare_lockimage.sh && systemctl suspend"
     },
