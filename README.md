@@ -111,7 +111,7 @@ Version numbers are a snapshot of my current setup.
         ```
 
 troubleshooting tips for when using some barebones os like voidlinux, archlinux...:
-	- usb mount not working: Ensure, that the file `/etc/polkit-1/rules.d/50-udisks.rules` is correct.
+	- usb mount not working AND/OR probe-rs not connecting correctly: Ensure, that the file `/etc/polkit-1/rules.d/50-udisks.rules` is correct.
  		Current setup: ```javascript
    				polkit.addRule(function(action, subject) {
   				var YES = polkit.Result.YES;
