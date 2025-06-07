@@ -142,3 +142,5 @@ troubleshooting tips for when using some barebones os like voidlinux, archlinux.
   				}
 				});
 				```
+	- dbus-session missing:
+ 		Replace `Exec=i3` with `Exec=dbus-run-session i3`
