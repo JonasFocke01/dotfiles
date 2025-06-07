@@ -85,6 +85,7 @@ Version numbers are a snapshot of my current setup.
     - audio: `alsa-utils alsa-plugins alsa-lib alsa-firmware pavucontrol`
     - copyq 6.0.1
     - udiskie 2.4.2
+    - dolphin
     - btop ?
     - wifi TODO
     - bluetooth TODO
