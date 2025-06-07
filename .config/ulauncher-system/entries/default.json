@@ -5,6 +5,12 @@
     "suspend": {
         "command": "$HOME/.config/i3lock/prepare_lockimage.sh && sudo zzz"
     },
+    "shutdown": {
+        "name": "Shutdown",
+        "description": "Shuts the system down",
+        "aliases": ["Shutdown"],
+        "command": "sudo shutdown -P now"
+    },
     },
     "logout": {
         "name": "Logout",
