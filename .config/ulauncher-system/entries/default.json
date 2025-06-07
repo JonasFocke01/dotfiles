@@ -3,7 +3,8 @@
     "hibernate": null,
     "bios": null,
     "suspend": {
-        "command": "$HOME/.config/i3lock/script_lock_prepare_lockimage.sh && systemctl suspend"
+        "command": "$HOME/.config/i3lock/prepare_lockimage.sh && sudo zzz"
+    },
     },
     "logout": {
         "name": "Logout",
