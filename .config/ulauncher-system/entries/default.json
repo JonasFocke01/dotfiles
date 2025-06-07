@@ -11,6 +11,11 @@
         "aliases": ["Shutdown"],
         "command": "sudo shutdown -P now"
     },
+    "restart": {
+        "name": "Restart",
+        "description": "Restarts the system",
+        "aliases": ["Restart"],
+        "command": "sudo shutdown -r now"
     },
     "logout": {
         "name": "Logout",
