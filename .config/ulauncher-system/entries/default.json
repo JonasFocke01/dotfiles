@@ -20,14 +20,14 @@
     "logout": {
         "name": "Logout",
         "description": "Logout to switch user or de",
-        "icon": "logout",
+        "icon": "system-log-out",
         "aliases": ["Logout"],
         "command": "pkill -SIGKILL -u $(whoami)"
     },
     "windows": {
         "name": "Restart to Windows",
         "description": "Restart to the dualboot-windows",
-        "icon": "windows",
+        "icon": "",
         "aliases": ["windows"],
         "command": "sudo efibootmgr -n $(efibootmgr -v | grep Windows | grep -o '000[0-9]') && systemctl reboot"
     }
