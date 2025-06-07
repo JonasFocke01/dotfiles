@@ -29,6 +29,6 @@
         "description": "Restart to the dualboot-windows",
         "icon": "",
         "aliases": ["windows"],
-        "command": "sudo efibootmgr -n $(efibootmgr -v | grep Windows | grep -o '000[0-9]') && systemctl reboot"
+        "command": "sudo efibootmgr -n $(efibootmgr -v | grep Windows | grep -o '000[0-9]') && sudo shutdown -r"
     }
 }
