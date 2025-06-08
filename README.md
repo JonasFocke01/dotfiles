@@ -136,9 +136,10 @@ troubleshooting tips for when using some barebones os like voidlinux, archlinux.
     					return permission[action.id];
   				}
 				});
-				```
+				```  
 	- dbus-session missing:
- 		Replace `Exec=i3` with `Exec=dbus-run-session i3`
+  edit file `/usr/share/xsessions/i3.desktop`  
+ 		Replace `Exec=i3` with `Exec=dbus-run-session i3`  
    	- autologin with lightdm:
     		edit `/etc/lightdm/lightdm.conf` and uncomment the lines
       			`autologin-user=` and change it to `autologin-user=USERNAME`
