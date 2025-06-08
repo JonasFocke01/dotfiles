@@ -56,7 +56,6 @@ Version numbers are a snapshot of my current setup.
 - Automount NAS
     - `echo "//tigerly/Allgemeine\040Daten /mnt/tigerly cifs username=USERNAME,password=PASSWORD,vers=2.0 0 0" | sudo tee -a /etc/fstab`
 - fnm (fast node manager) 1.38.1
-- vlc 3.0.16
 - Desktop Environment
     - xorg`
     - dbus -> `sudo ln -s /var/service/dbus /var/service/`
@@ -77,6 +76,7 @@ Version numbers are a snapshot of my current setup.
     - dolphin
     - btop ?
     - flatpak -> `sudo flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
+    - vlc 3.0.16
     - wifi TODO
     - bluetooth TODO
 
