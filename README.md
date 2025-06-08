@@ -67,7 +67,7 @@ Version numbers are a snapshot of my current setup.
     - xz (package with `tar` and so on)
     - dbus -> `sudo ln -s /var/service/dbus /var/service/`
     - i3 (not i3-wm)
-    - i3blocks ? (voidlinux fix: `ln -s /etc/sv/dbus /var/service/`)
+    - i3blocks ? (voidlinux fix: `ln -s /etc/sv/dbus /var/service/` and installing `sysstat`)
     - i3lock 2.13
     - lightdm -> `sudo ln -s /etc/sv/lightdm /var/service/` -> `lightdm-gtk-greeter`
     - network-manager-gnome ?
