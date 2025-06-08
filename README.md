@@ -14,7 +14,7 @@ Version numbers are a snapshot of my current setup.
 - Add user to sudoers file and disable password promt from efibootmgr
     - Add `USERNAME ALL=(ALL:ALL)` to the end with visudo
     - For each program, that we want to execute without typing in a password, we need another `USERNAME ALL=(ALL:ALL) NOPASSWD: /path/to/executable` at the END of the file
-  	- on void, we need at least `/usr/bin/zzz` and `/usr/bin/shutdown -P now`
+  	- on void, we need at least `/usr/bin/zzz`, `/usr/bin/shutdown` and `/usr/bin/efibootmgr`
 - Firefox 133.0.3
 - Create ssh key with `ssh-keygen -f $HOME/.ssh/id_rsa -N ''`
 
