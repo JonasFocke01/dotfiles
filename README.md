@@ -76,6 +76,7 @@ Version numbers are a snapshot of my current setup.
     - udiskie 2.4.2
     - dolphin
     - btop ?
+    - flatpak -> `sudo flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
     - wifi TODO
     - bluetooth TODO
 
