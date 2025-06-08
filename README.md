@@ -77,6 +77,7 @@ Version numbers are a snapshot of my current setup.
     - btop ?
     - flatpak -> `sudo flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
     - vlc 3.0.16
+    - stow
     - wifi TODO
     - bluetooth TODO
 
