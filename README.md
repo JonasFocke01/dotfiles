@@ -16,11 +16,8 @@ Version numbers are a snapshot of my current setup.
     - For each program, that we want to execute without typing in a password, we need another `USERNAME ALL=(ALL:ALL) NOPASSWD: /path/to/executable` at the END of the file
   	- on void, we need at least `/usr/bin/zzz` and `/usr/bin/shutdown -P now`
 - Firefox 133.0.3
-- Create ssh key
-    1. `ssh-keygen -f $HOME/.ssh/id_rsa -N ''`
-    2. copy the output of `cat .ssh/id_rsa.pub to`
-        1. Gitub `https://github.com/settings/keys`
-        2. Linux servers `$HOME/.ssh/authorized_keys`
+- Create ssh key with `ssh-keygen -f $HOME/.ssh/id_rsa -N ''`
+
 - Rust
     Main:
     ```bash
@@ -30,13 +27,10 @@ Version numbers are a snapshot of my current setup.
 
     To program for rpi picos:
     ```bash
-    cargo install elf2uf2-rs && \
-    cargo install rustup target add thumbv6m-none-eabi && \
-    cargo install probe-rs && \
+    rustup target add thumbv6m-none-eabi
     curl --proto '=https' --tlsv1.2 -LsSf https://github.com/probe-rs/probe-rs/releases/latest/download/probe-rs-tools-installer.sh | sh
     ```
     - follow instructons on (this site)[https://probe.rs/docs/getting-started/probe-setup/]
-    - libudev-dev
 
 - Shell
     - Alacritty 0.15.0
