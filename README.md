@@ -44,13 +44,6 @@ Version numbers are a snapshot of my current setup.
             - `git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
             - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
             - `sudo update-alternatives --install /usr/bin/x-terminal-emulator x-terminal-emulator /usr/bin/alacritty 50`
-        - purge bash
-            ```bash
-            sudo rm -r \
-                    .bash_history \
-                    .bash_logout \
-                    .bashrc
-            ```
 - Tlp 1.5.0 (Battery management)
 - Remove nano
 - Neovim 0.10.3
@@ -144,3 +137,5 @@ troubleshooting tips for when using some barebones os like voidlinux, archlinux.
     		edit `/etc/lightdm/lightdm.conf` and uncomment the lines
       			`autologin-user=` and change it to `autologin-user=USERNAME`
 	 		`autologin-user-timeout=0`
+
+Clean up home (We dont need bash and other stuff)
