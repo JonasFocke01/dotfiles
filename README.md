@@ -55,7 +55,7 @@ Version numbers are a snapshot of my current setup.
     - Spotify
 - Automount NAS
     - `echo "//tigerly/Allgemeine\040Daten /mnt/tigerly cifs username=USERNAME,password=PASSWORD,vers=2.0 0 0" | sudo tee -a /etc/fstab`
-- fnm (fast node manager) 1.38.1
+
 - Desktop Environment
     - xorg`
     - dbus -> `sudo ln -s /var/service/dbus /var/service/`
