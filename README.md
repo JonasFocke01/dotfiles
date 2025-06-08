@@ -55,6 +55,12 @@ Version numbers are a snapshot of my current setup.
     - Spotify
 - Automount NAS
     - `echo "//tigerly/Allgemeine\040Daten /mnt/tigerly cifs username=USERNAME,password=PASSWORD,vers=2.0 0 0" | sudo tee -a /etc/fstab`
+ 
+- mariadb
+  on voidlinux do
+    1. xbps install
+    2. `sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql`
+    3. Enable service: `sudo ln -s /etc/sv/mysqld /var/service/mysqld`
 
 - Desktop Environment
     - xorg
