@@ -66,7 +66,7 @@ Version numbers are a snapshot of my current setup.
 - vlc 3.0.16
 - Desktop Environment
     - xorg: `xorg-server xorg-apps xorg-minimal xinit xterm xcape`
-    - i3-wm ?
+    - i3 (not i3-wm)
     - i3blocks ? (voidlinux fix: `ln -s /etc/sv/dbus /var/service/`)
     - i3lock 2.13
     - lightdm
