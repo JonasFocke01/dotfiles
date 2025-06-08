@@ -143,7 +143,7 @@ troubleshooting tips for when using some barebones os like voidlinux, archlinux.
   edit file `/usr/share/xsessions/i3.desktop`  
  		Replace `Exec=i3` with `Exec=dbus-run-session i3`  
    	- autologin with lightdm:
-    		edit `/etc/lightdm/lightdm.conf` and uncomment the lines
+    		edit `/etc/lightdm/lightdm.conf` and uncomment the lines in section `[Seat:*]`
       			`autologin-user=` and change it to `autologin-user=USERNAME`
 	 		`autologin-user-timeout=0`
 
