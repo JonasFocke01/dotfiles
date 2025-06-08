@@ -69,7 +69,7 @@ Version numbers are a snapshot of my current setup.
     - i3 (not i3-wm)
     - i3blocks ? (voidlinux fix: `ln -s /etc/sv/dbus /var/service/`)
     - i3lock 2.13
-    - lightdm -> `sudo ln -s /etc/sv/lightdm /var/service/`
+    - lightdm -> `sudo ln -s /etc/sv/lightdm /var/service/` -> `lightdm-gtk-greeter`
     - network-manager-gnome ?
     - dunst 1.12.1
     - flameshot 11.0.0
