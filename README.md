@@ -79,13 +79,12 @@ Version numbers are a snapshot of my current setup.
     - fd-find ?
     - ulauncher 5.15.7
     - audio: `alsa-utils alsa-plugins alsa-lib alsa-firmware pavucontrol`
-    - copyq 6.0.1
     - udiskie 2.4.2
     - dolphin
     - btop ?
     - wifi TODO
     - bluetooth TODO
-    - Create a nasa api key on `https://api.nasa.gov/` and save it to `dotiles/.config/i3/nasa-api-key`
+
 - Use dotfiles
     - stow 2.3.1
     ```bash
