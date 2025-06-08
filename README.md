@@ -57,7 +57,8 @@ Version numbers are a snapshot of my current setup.
     - `echo "//tigerly/Allgemeine\040Daten /mnt/tigerly cifs username=USERNAME,password=PASSWORD,vers=2.0 0 0" | sudo tee -a /etc/fstab`
 
 - Desktop Environment
-    - xorg`
+    - xorg
+    - xz (package with `tar` and so on)
     - dbus -> `sudo ln -s /var/service/dbus /var/service/`
     - i3 (not i3-wm)
     - i3blocks ? (voidlinux fix: `ln -s /etc/sv/dbus /var/service/`)
