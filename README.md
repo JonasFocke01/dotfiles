@@ -65,11 +65,12 @@ Version numbers are a snapshot of my current setup.
 - fnm (fast node manager) 1.38.1
 - vlc 3.0.16
 - Desktop Environment
-    - xorg: `xorg-server xorg-apps xorg-minimal xinit xterm xcape`
+    - xorg`
+    - dbus -> `sudo ln -s /var/service/dbus /var/service/`
     - i3 (not i3-wm)
     - i3blocks ? (voidlinux fix: `ln -s /etc/sv/dbus /var/service/`)
     - i3lock 2.13
-    - lightdm
+    - lightdm -> `sudo ln -s /etc/sv/lightdm /var/service/`
     - network-manager-gnome ?
     - dunst 1.12.1
     - flameshot 11.0.0
@@ -78,7 +79,7 @@ Version numbers are a snapshot of my current setup.
     - fzf 0.29
     - fd-find ?
     - ulauncher 5.15.7
-    - audio: `alsa-utils alsa-plugins alsa-lib alsa-firmware pavucontrol`
+    - audio: `alsa-utils alsa-plugins alsa-lib alsa-firmware pavucontrol pulseaudio`
     - udiskie 2.4.2
     - dolphin
     - btop ?
