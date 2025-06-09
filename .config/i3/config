@@ -11,6 +11,7 @@ exec --no-startup-id setxkbmap -option caps:escape
 exec --no-startup-id ulauncher --no-window-shadow
 exec --no-startup-id $HOME/.config/i3/start_firefox.sh
 exec --no-startup-id udiskie
+exec_always --no-startup-id xset s off
 
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
