@@ -146,5 +146,8 @@ troubleshooting tips for when using some barebones os like voidlinux, archlinux.
     		edit `/etc/lightdm/lightdm.conf` and uncomment the lines in section `[Seat:*]`
       			`autologin-user=` and change it to `autologin-user=USERNAME`
 	 		`autologin-user-timeout=0`
+- default applications are not set:
+  - install xdg-settings
+  - `xdg-settings set default-web-browser firefox.desktop`
 
 Clean up home (We dont need bash and other stuff)
