@@ -149,5 +149,8 @@ troubleshooting tips for when using some barebones os like voidlinux, archlinux.
 - default applications are not set:
   - install xdg-settings
   - `xdg-settings set default-web-browser firefox.desktop`
+- disable screen blanking:
+  - `xset s off`
+  - `xset s noblank`
 
 Clean up home (We dont need bash and other stuff)
