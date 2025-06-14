@@ -3,6 +3,7 @@
         "command": "$HOME/.config/i3lock/prepare_lockimage.sh && i3lock -i /tmp/lockscreen.png"
     },
     "hibernate": null,
+    "bios": null,
     "suspend": {
         "command": "$HOME/.config/i3lock/prepare_lockimage.sh && sudo zzz"
     },
