@@ -74,7 +74,6 @@ I have not packaged my 'desktop environment'. This is just a list of software, t
     - Xorg
     - Xz (package with `tar` and so on)
     - Dbus
-    - Network-manager-gnome ?
     - Audio
         - alsa-utils
         - alsa-plugins
@@ -91,6 +90,7 @@ I have not packaged my 'desktop environment'. This is just a list of software, t
 ### Mobile
 
     - Tlp
+    - Network-manager-gnome TODO: is this correct?
     - Wifi TODO
     - Bluetooth TODO
 
