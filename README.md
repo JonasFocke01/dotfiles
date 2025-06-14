@@ -152,37 +152,38 @@ This registers some commands, so that `sudo xyz` wont prompt for a password (use
 
 ## Troubleshooting advice
 
-### Usb mount not working AND/OR probe-rs not connecting correctly: Ensure, that the file `/etc/polkit-1/rules.d/50-udisks.rules` is correct.
+### Usb mount not working AND/OR probe-rs not connecting correctly
 
-    Current setup: ```javascript
-        polkit.addRule(function(action, subject) {
-        var YES = polkit.Result.YES;
-        // NOTE: there must be a comma at the end of each line except for the last:
-        var permission = {
-                // required for udisks1:
-                "org.freedesktop.udisks.filesystem-mount": YES,
-                "org.freedesktop.udisks.luks-unlock": YES,
-                "org.freedesktop.udisks.drive-eject": YES,
-                "org.freedesktop.udisks.drive-detach": YES,
-                // required for udisks2:
-                "org.freedesktop.udisks2.filesystem-mount": YES,
-                "org.freedesktop.udisks2.encrypted-unlock": YES,
-                "org.freedesktop.udisks2.eject-media": YES,
-                "org.freedesktop.udisks2.power-off-drive": YES,
-                // Dolphin specific
-                "org.freedesktop.udisks2.filesystem-mount-system": YES,
-                // required for udisks2 if using udiskie from another seat (e.g. systemd):
-                "org.freedesktop.udisks2.filesystem-mount-other-seat": YES,
-                "org.freedesktop.udisks2.filesystem-unmount-others": YES,
-                "org.freedesktop.udisks2.encrypted-unlock-other-seat": YES,
-                "org.freedesktop.udisks2.eject-media-other-seat": YES,
-                "org.freedesktop.udisks2.power-off-drive-other-seat": YES
-        };
-        if (subject.isInGroup("wheel")) {
-                return permission[action.id];
-        }
-        });
-        ```
+    - Ensure, that the file `/etc/polkit-1/rules.d/50-udisks.rules` is correct.
+        Current setup: ```javascript
+            polkit.addRule(function(action, subject) {
+            var YES = polkit.Result.YES;
+            // NOTE: there must be a comma at the end of each line except for the last:
+            var permission = {
+                    // required for udisks1:
+                    "org.freedesktop.udisks.filesystem-mount": YES,
+                    "org.freedesktop.udisks.luks-unlock": YES,
+                    "org.freedesktop.udisks.drive-eject": YES,
+                    "org.freedesktop.udisks.drive-detach": YES,
+                    // required for udisks2:
+                    "org.freedesktop.udisks2.filesystem-mount": YES,
+                    "org.freedesktop.udisks2.encrypted-unlock": YES,
+                    "org.freedesktop.udisks2.eject-media": YES,
+                    "org.freedesktop.udisks2.power-off-drive": YES,
+                    // Dolphin specific
+                    "org.freedesktop.udisks2.filesystem-mount-system": YES,
+                    // required for udisks2 if using udiskie from another seat (e.g. systemd):
+                    "org.freedesktop.udisks2.filesystem-mount-other-seat": YES,
+                    "org.freedesktop.udisks2.filesystem-unmount-others": YES,
+                    "org.freedesktop.udisks2.encrypted-unlock-other-seat": YES,
+                    "org.freedesktop.udisks2.eject-media-other-seat": YES,
+                    "org.freedesktop.udisks2.power-off-drive-other-seat": YES
+            };
+            if (subject.isInGroup("wheel")) {
+                    return permission[action.id];
+            }
+            });
+            ```
 
 ### dbus-session missing:
 
