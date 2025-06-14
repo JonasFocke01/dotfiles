@@ -15,6 +15,7 @@ exec_always --no-startup-id xset r rate 200 30
 exec_always --no-startup-id setxkbmap de
 exec_always --no-startup-id xset s off
 exec_always --no-startup-id xset s noblank
+exec_always --no-startup-id xset -dpms
 
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
