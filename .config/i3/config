@@ -40,16 +40,16 @@ bindsym $mod+space focus mode_toggle
 # Use this as a blueprint for actual windows i want to let float
 # for_window [title="my_title"] floating enable
 
-set $ws1 "wasteland"
-set $ws2 "wasteland"
-set $ws3 "wasteland"
-set $ws4 "wasteland"
-set $ws5 "wasteland"
-set $ws6 "gaming"
-set $ws7 "music"
-set $ws8 "work_1"
-set $ws9 "work_2"
-set $ws10 "work_3"
+set $ws1 "󰛌"
+set $ws2 "󰛌"
+set $ws3 "󰛌"
+set $ws4 "󰛌"
+set $ws5 "󰛌"
+set $ws6 "󰺷"
+set $ws7 ""
+set $ws8 ""
+set $ws9 ""
+set $ws10 ""
 
 bindsym $mod+1 workspace $ws1
 bindsym $mod+2 workspace $ws2
@@ -96,8 +96,7 @@ client.urgent #ED8796 #ED8796 #1E2030
 bar {
     status_command SCRIPT_DIR=/home/jonas/.config/i3blocks/scripts/ i3blocks
     mode hide
-    font pango:JetBrainsMono Nerd Font 12
-    workspace_min_width 75
+    font pango:JetBrainsMono Nerd Font 14
     colors {
         background #1E2030
         separator #939ab7
