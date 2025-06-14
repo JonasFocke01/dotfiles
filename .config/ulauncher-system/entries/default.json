@@ -1,5 +1,7 @@
 {
-    "lock": null,
+    "lock": {
+        "command": "$HOME/.config/i3lock/prepare_lockimage.sh && i3lock -i /tmp/lockscreen.png"
+    },
     "hibernate": null,
     "suspend": {
         "command": "$HOME/.config/i3lock/prepare_lockimage.sh && sudo zzz"
