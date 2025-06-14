@@ -37,8 +37,8 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
-# Use this as a blueprint for actual windows i want to let float
-# for_window [title="my_title"] floating enable
+for_window [class="dolphin"] floating enable
+for_window [class="feh"] floating enable
 
 set $ws1 "󰛌"
 set $ws2 "󰛌"
