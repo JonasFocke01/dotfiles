@@ -51,7 +51,7 @@ I have not packaged my 'desktop environment'. This is just a list of software, t
     - Dolphin
     - Btop
     - Alacritty
-    - Exa
+    - Eza
     - Zsh
         - `chsh -s /usr/bin/zsh`
     - Oh-My-Zsh
