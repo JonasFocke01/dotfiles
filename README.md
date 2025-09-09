@@ -99,7 +99,7 @@ I have not packaged my 'desktop environment'. This is just a list of software, t
 This is a handy list of software i use on some machines.
 
     - Steam
-    - Discord
+    - Vesktop (Discord)
     - Spotify
     - Mariadb
       On voidlinux do
