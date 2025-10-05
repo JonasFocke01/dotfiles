@@ -118,7 +118,7 @@ This is a handy list of software i use on some machines, but not all.
     rustup target add thumbv6m-none-eabi
     curl --proto '=https' --tlsv1.2 -LsSf https://github.com/probe-rs/probe-rs/releases/latest/download/probe-rs-tools-installer.sh | sh
     ```
-    -> follow instructons on (this site)[https://probe.rs/docs/getting-started/probe-setup/]
+    follow instructons on [this site](https://probe.rs/docs/getting-started/probe-setup/)
 
 ## Tips, tricks
 
