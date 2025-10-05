@@ -1,0 +1,3 @@
+cat .ssh/xyz.pub | xclip -selection clipboard     # Copy the content of .ssh/xyz.pub to the clipboard
+tar -xvf archive.tar    # Unwrap a tar archive
+tar -tvf archive.tar    # Print the contents of the archive
