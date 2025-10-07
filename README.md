@@ -6,7 +6,9 @@ Here _might_ be trivial things listed for the sake of having a list of them.
 
 ## Dotfiles
 
-For using the full experience of the contained dotfiles, one would do this
+HINT: Install SSH to connect with GH first before cloning anything
+
+For using the full experience of the contained dotfiles, one would do this:
 
 - install `stow`
     ```bash
