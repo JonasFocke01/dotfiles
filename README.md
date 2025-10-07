@@ -104,6 +104,7 @@ This is a handy list of software i use on some machines, but not all.
 - Steam
 - Vesktop (Discord)
 - Spotify
+- Filelight
 - Mariadb
   On voidlinux do
     1. xbps install
