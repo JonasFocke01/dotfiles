@@ -4,10 +4,10 @@ firefox &
 
 # gaming
 while true; do
-    id=$(wmctrl -l -x | grep -E 'firefox.*gaming' | grep -v 'Alacritty' | awk '{print $1}')
+    id=$(wmctrl -l -x | grep -E 'firefox.\+gaming' | grep -v 'Alacritty' | awk '{print $1}')
 
     if [ -n "$id" ]; then
-i3-msg "[id=$(wmctrl -l -x | grep -E 'firefox.*gaming' | grep -v 'Alacritty' | awk '{print $1}')] move container to workspace gaming"
+i3-msg "[id=$id] move container to workspace 󰺷"
         break
     fi
 
@@ -17,10 +17,10 @@ done
 
 # music
 while true; do
-    id=$(wmctrl -l -x | grep -E 'firefox.*music' | grep -v 'Alacritty' | awk '{print $1}')
+    id=$(wmctrl -l -x | grep -E 'firefox.\+music' | grep -v 'Alacritty' | awk '{print $1}')
 
     if [ -n "$id" ]; then
-i3-msg "[id=$(wmctrl -l -x | grep -E 'firefox.*music' | grep -v 'Alacritty' | awk '{print $1}')] move container to workspace music"
+i3-msg "[id=$id] move container to workspace "
         break
     fi
 
@@ -30,10 +30,10 @@ done
 
 # work_1
 while true; do
-    id=$(wmctrl -l -x | grep -E 'firefox.*work_1' | grep -v 'Alacritty' | awk '{print $1}')
+    id=$(wmctrl -l -x | grep -E 'firefox.\+work_1' | grep -v 'Alacritty' | awk '{print $1}')
 
     if [ -n "$id" ]; then
-i3-msg "[id=$(wmctrl -l -x | grep -E 'firefox.*work_1' | grep -v 'Alacritty' | awk '{print $1}')] move container to workspace work_1"
+i3-msg "[id=$id] move container to workspace "
         break
     fi
 
@@ -42,10 +42,10 @@ done
 
 # work_2
 while true; do
-    id=$(wmctrl -l -x | grep -E 'firefox.*work_2' | grep -v 'Alacritty' | awk '{print $1}')
+    id=$(wmctrl -l -x | grep -E 'firefox.\+work_2' | grep -v 'Alacritty' | awk '{print $1}')
 
     if [ -n "$id" ]; then
-i3-msg "[id=$(wmctrl -l -x | grep -E 'firefox.*work_2' | grep -v 'Alacritty' | awk '{print $1}')] move container to workspace work_2"
+i3-msg "[id=$id] move container to workspace "
         break
     fi
 
@@ -54,10 +54,10 @@ done
 
 # work_3
 while true; do
-    id=$(wmctrl -l -x | grep -E 'firefox.*work_3' | grep -v 'Alacritty' | awk '{print $1}')
+    id=$(wmctrl -l -x | grep -E 'firefox.\+work_3' | grep -v 'Alacritty' | awk '{print $1}')
 
     if [ -n "$id" ]; then
-i3-msg "[id=$(wmctrl -l -x | grep -E 'firefox.*work_3' | grep -v 'Alacritty' | awk '{print $1}')] move container to workspace work_3"
+i3-msg "[id=$id] move container to workspace "
         break
     fi
 
