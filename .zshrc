@@ -12,6 +12,12 @@ ZSH_AUTOSUGGEST_STRATEGY=(completion history)
 
 source $ZSH/oh-my-zsh.sh
 
+setopt CORRECT
+setopt HIST_IGNORE_ALL_DUPS
+setopt HIST_REDUCE_BLANKS
+setopt SHARE_HISTORY
+bindkey -v # vi mode
+
 fzf_history() {
     local dynamic_history=~/.zsh_history
     local custom_history=~/.custom_zsh_history
