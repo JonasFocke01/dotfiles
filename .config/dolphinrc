@@ -14,7 +14,6 @@ ShowSortBy=false
 ShowViewMode=false
 
 [General]
-DoubleClickViewAction=show_hidden_files
 Version=202
 ViewPropsTimestamp=2025,6,8,14,14,26.695
 
