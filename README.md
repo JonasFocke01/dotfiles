@@ -57,7 +57,6 @@ For using the full experience of the contained dotfiles, one would do this:
 - Xclip
 - Stow
 - [sowon](https://github.com/tsoding/sowon)
-    Must be build from source
 
 ### i3 Setup to make a barebones distro usable
 
