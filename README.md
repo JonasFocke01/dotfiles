@@ -57,6 +57,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - Xclip
 - Stow
 - bat
+- ncspot
 - [cyme](https://github.com/tuna-f1sh/cyme/releases)
 - [sowon](https://github.com/tsoding/sowon)
 
