@@ -31,5 +31,6 @@ alias ls='exa -l --git --icons -a'
 alias vim='nvim'
 alias ':q'=exit
 alias lsusb='cyme'
+alias cat='bat'
 
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$HOME/repos/github_issue_roulette/target/release:$HOME/repos/remindy/target/release

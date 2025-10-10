@@ -56,6 +56,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - Vlc
 - Xclip
 - Stow
+- bat
 - [cyme](https://github.com/tuna-f1sh/cyme/releases)
 - [sowon](https://github.com/tsoding/sowon)
 
