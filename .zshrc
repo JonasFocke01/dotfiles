@@ -33,5 +33,6 @@ alias ':q'=exit
 alias lsusb='cyme'
 alias cat='bat'
 alias spotify='ncspot'
+alias rm='echo -n "Only use **rm** if you are extra sure! \nA safer way to remove files is with **trash-put**.\nSee **trash --help** for more infos.\nIf you REALY want to use rm, type **\\\\rm**\n"'
 
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$HOME/repos/github_issue_roulette/target/release:$HOME/repos/remindy/target/release
