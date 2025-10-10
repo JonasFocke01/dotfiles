@@ -32,4 +32,4 @@ alias vim='nvim'
 alias ':q'=exit
 alias lsusb='cyme'
 
-export PATH=:$HOME/repos/sleep_script/:$PATH:/$HOME/repos/sowon::$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$HOME/cmdline-tools/bin:$HOME/repos/github_issue_roulette/target/release:$HOME/repos/remindy/target/release
+export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$HOME/repos/github_issue_roulette/target/release:$HOME/repos/remindy/target/release
