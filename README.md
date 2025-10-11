@@ -75,6 +75,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - Ulauncher
 - Udiskie
 - Dolphin
+    + Somehow installing `qt5ct` made it more usable
 
 ### Voidlinux specific
 
