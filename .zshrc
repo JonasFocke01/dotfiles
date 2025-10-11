@@ -1,6 +1,9 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 export EDITOR='nvim'
+export TERM="alacritty"
+export TERMINAL="alacritty"
+export BROWSER="firefox"
 
 ZSH_THEME="frontcube"
 
@@ -36,4 +39,9 @@ alias cat='bat'
 alias spotify='ncspot'
 alias rm='echo -n "Only use **rm** if you are extra sure! \nA safer way to remove files is with **trash-put**.\nSee **trash --help** for more infos.\nIf you REALY want to use rm, type **\\\\rm**\n"'
 
+export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
+
 export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$HOME/repos/github_issue_roulette/target/release:$HOME/repos/remindy/target/release
+
