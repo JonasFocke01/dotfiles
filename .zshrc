@@ -15,7 +15,7 @@ source $ZSH/oh-my-zsh.sh
 setopt CORRECT
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_REDUCE_BLANKS
-setopt SHARE_HISTORY
+setopt APPEND_HISTORY INC_APPEND_HISTORY SHARE_HISTORY
 bindkey -v # vi mode
 
 fzf_history() {
