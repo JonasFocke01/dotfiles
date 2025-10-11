@@ -32,6 +32,11 @@ interval=2
 separator=false
 interval=30
 
+[memory]
+separator=false
+instance=swap
+interval=30
+
 [disk]
 interval=30
 
@@ -43,16 +48,10 @@ separator=false
 interval=60
 
 [cpu_usage]
-label=
+command=echo " $(./scripts/cpu_usage/cpu_usage)"
 interval=2
-min_width=CPU 100.00%
-
-[battery-plus]
-instance=BAT1
-interval=30
-
-[tlp-charge-limit]
-interval=30
+min_width= 99.99%
+align=center
 
 [time]
 command=date '+%d-%m-%Y %H:%M:%S'
