@@ -6,6 +6,7 @@ hide_display_names = true
 
 [keybindings]
 "Space" = "pause"
+"q" = ""
 
 
 [theme]
