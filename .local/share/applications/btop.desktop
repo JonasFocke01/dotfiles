@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=btop++
+GenericName=System Monitor
+Comment=Resource monitor for cpu, gpu, memory, network, disk, process and kernel
+Icon=btop
+TryExec=btop
+Exec=alacritty -e btop
+Terminal=false
+Categories=System;Monitor;ConsoleOnly;
+Keywords=system;process;task;monitor;cpu;gpu;memory;network;disk;process;kernel
