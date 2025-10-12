@@ -40,6 +40,14 @@ bindsym $mod+space focus mode_toggle
 for_window [class="dolphin"] floating enable
 for_window [class="feh"] floating enable
 for_window [class="vlc"] floating enable
+for_window [class="Audacity"] floating enable
+for_window [class="Gimp"] floating enable
+for_window [class="sowon"] floating enable
+for_window [class="steam"] floating enable
+for_window [class="vesktop"] floating enable
+for_window [class="filelight"] floating enable
+
+for_window [floating] move position center
 
 set $ws1 "󰛌"
 set $ws2 "󰛌"
