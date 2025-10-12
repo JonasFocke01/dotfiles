@@ -59,7 +59,17 @@ For using the full experience of the contained dotfiles, one would do this:
 - bat
 - ncspot
 - audacity
+- gimp
+- ffmpeg
+- kdenlive
+- dbeaver
+- imagemagick
 - trash-cli
+- curl
+- wget
+- fastfetch
+- jq
+- zip
 - [cyme](https://github.com/tuna-f1sh/cyme/releases)
 - [sowon](https://github.com/tsoding/sowon)
 
@@ -70,6 +80,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - i3lock
 - Lightdm
 - Dunst
+- Picom
 - Feh
 - Imagemagick
 - Ulauncher
