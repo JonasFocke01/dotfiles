@@ -147,16 +147,11 @@ This registers some commands, so that `sudo xyz` wont prompt for a password (use
 
 - Add `USERNAME ALL=(ALL:ALL)` to the end with visudo
 - For each program, that we want to execute without typing in a password, we need another `USERNAME ALL=(ALL:ALL) NOPASSWD: /path/to/executable` at the END of the file
-- For the full experience of this custom DE we need at least `/usr/bin/zzz`, `/usr/bin/shutdown` and `/usr/bin/efibootmgr`
+- For the full experience of the dotfiles, we need at least `/usr/bin/zzz`, `/usr/bin/shutdown`, `/usr/bin/efibootmgr` and `/usr/bin/mount`
 
 ### SSH
 
 - Create ssh key with `ssh-keygen -f $HOME/.ssh/id_rsa -N ''`
-
-### NAS (TODO: Is this even correct?)
-
-To automount a NAS at login, we do
-- `echo "//tigerly/Allgemeine\040Daten /mnt/tigerly cifs username=USERNAME,password=PASSWORD,vers=2.0 0 0" | sudo tee -a /etc/fstab`
 
 ### Autologin with lightdm:
 
