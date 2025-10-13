@@ -104,6 +104,8 @@ For using the full experience of the contained dotfiles, one would do this:
 - `ln -s /etc/sv/lightdm /var/service/`
 - Lightdm-gtk-greeter
 - Sysstat
+- make
+- SDL2-devel
 
 ### Mobile
 
