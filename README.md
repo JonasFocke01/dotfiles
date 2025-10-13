@@ -206,3 +206,7 @@ if (subject.isInGroup("wheel")) {
 2. Replace `Exec=i3` with `Exec=dbus-run-session i3`
 
 TODO: This is probably not what we want to do here, but it works for now
+
+### disable grub menu
+
+Set the timeout in `/etc/default/grub` to 0. Then do `sudo update-grub`.
