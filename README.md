@@ -97,6 +97,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - SDL2-devel
 - gcc
 - pkg-config
+- [nvidia drivers](https://docs.voidlinux.org/config/graphical-session/graphics-drivers/nvidia.html)
 
 ### Mobile
 
