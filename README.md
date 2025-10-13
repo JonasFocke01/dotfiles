@@ -106,6 +106,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - Sysstat
 - make
 - SDL2-devel
+- gcc
 
 ### Mobile
 
