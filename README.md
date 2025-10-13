@@ -19,18 +19,7 @@ For using the full experience of the contained dotfiles, one would do this:
     git restore . && \
     fc-cache -f -v
     ```
-
-- Install scripts (TODO: Is this even correct?)
-    - systemd
-    ```bash
-    sudo cp dotfiles/.config/systemd/user/screenlock_pre@.service /etc/systemd/system/screenlock_pre@.service && \
-    sudo cp dotfiles/.config/systemd/user/screenlock_post@.service /etc/systemd/system/screenlock_post@.service && \
-    sudo cp dotfiles/.config/systemd/logind.conf /etc/systemd/logind.conf
-    sudo systemctl daemon-reload && \
-    sudo systemctl enable screenlock_pre@$SUDO_USER.service && \
-    sudo systemctl enable screenlock_post@$SUDO_USER.service && \
-    ```
-
+    
 ## Selfmade stiched-together 'desktop environment'
 
 ### Software to be productive on any DE
