@@ -38,7 +38,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - Flameshot
 - Firefox
 - Fzf
-- Fd-find
+- Fd
 - Btop
 - Alacritty
 - Eza
@@ -63,7 +63,6 @@ For using the full experience of the contained dotfiles, one would do this:
 - ffmpeg
 - kdenlive
 - dbeaver
-- imagemagick
 - trash-cli
 - curl
 - wget
@@ -82,7 +81,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - Dunst
 - Picom
 - Feh
-- Imagemagick
+- ImageMagick
 - Ulauncher
 - Udiskie
 - Dolphin
@@ -100,7 +99,6 @@ For using the full experience of the contained dotfiles, one would do this:
     - alsa-firmware
     - pavucontrol
     - pulseaudio
-- `ln -s /var/service/dbus /var/service/`
 - `ln -s /etc/sv/dbus /var/service/`
 - `ln -s /etc/sv/lightdm /var/service/`
 - Lightdm-gtk-greeter
