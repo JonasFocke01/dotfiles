@@ -205,7 +205,7 @@ if (subject.isInGroup("wheel")) {
 });
 ```
 
-### dbus-session missing:
+### dbus-session missing: -not-used-in-last-install-
 
 1. Edit file `/usr/share/xsessions/i3.desktop`
 2. Replace `Exec=i3` with `Exec=dbus-run-session i3`
