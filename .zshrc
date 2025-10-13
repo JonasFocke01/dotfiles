@@ -22,15 +22,6 @@ setopt HIST_REDUCE_BLANKS
 setopt APPEND_HISTORY INC_APPEND_HISTORY SHARE_HISTORY
 bindkey -v # vi mode
 
-fzf_history() {
-    local dynamic_history=~/.zsh_history
-    local custom_history=~/.custom_zsh_history
-
-    cat <(tac $dynamic_history) <(cat $custom_history) | fzf --query="$BUFFER" --reverse --height=10
-}
-zle -N fzf_history
-bindkey '^R' fzf_history
-
 alias ls='eza -l --git --icons -a'
 alias vim='nvim'
 alias ':q'=exit
