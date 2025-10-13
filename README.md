@@ -110,7 +110,7 @@ For using the full experience of the contained dotfiles, one would do this:
 
 This is a handy list of software i use on some machines, but not all.
 
-- Steam
+- Steam (takes reeeealy long to start)
 - Vesktop (Discord)
 - Spotify
 - Filelight
