@@ -107,6 +107,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - make
 - SDL2-devel
 - gcc
+- pkg-config
 
 ### Mobile
 
