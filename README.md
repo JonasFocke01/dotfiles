@@ -67,6 +67,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - curl
 - wget
 - fastfetch
+- git
 - jq
 - zip
 - [cyme](https://github.com/tuna-f1sh/cyme/releases)
