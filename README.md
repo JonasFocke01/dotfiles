@@ -73,6 +73,7 @@ For using the full experience of the contained dotfiles, one would do this:
 - ImageMagick
 - Ulauncher
 - Udiskie
+- wmctrl
 - Dolphin
     + Somehow installing `qt5ct` made it more usable
 
