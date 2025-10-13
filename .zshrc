@@ -31,7 +31,7 @@ fzf_history() {
 zle -N fzf_history
 bindkey '^R' fzf_history
 
-alias ls='exa -l --git --icons -a'
+alias ls='eza -l --git --icons -a'
 alias vim='nvim'
 alias ':q'=exit
 alias lsusb='cyme'
