@@ -67,8 +67,8 @@ Hint for voidlinux: run `sudo xbps-install -Su`
 - SDL2-devel
 - gcc
 - pkg-config
-- Dolphin
-    + Somehow installing `qt5ct` made it more usable
+- Thunar
+- gvfs
 
 ### Voidlinux specific
 
