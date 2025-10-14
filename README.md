@@ -82,6 +82,7 @@ Here _might_ be trivial things listed for the sake of having a list of them.
 - `ln -s /etc/sv/lightdm /var/service/`
 - Lightdm-gtk-greeter
 - Sysstat
+- Vulkan-Tools
 - [nvidia drivers](https://docs.voidlinux.org/config/graphical-session/graphics-drivers/nvidia.html)
 
 ### Mobile
