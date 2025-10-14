@@ -34,4 +34,4 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
 
-export PATH=$PATH:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$HOME/repos/github_issue_roulette/target/release:$HOME/repos/remindy/target/release:$HOME/.local/bin
+export PATH=$PATH:$HOME/.local/bin
