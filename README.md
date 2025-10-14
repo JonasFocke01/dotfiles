@@ -47,6 +47,8 @@ Hint for voidlinux: run `sudo xbps-install -Su`
 - libreoffice
 - [cyme](https://github.com/tuna-f1sh/cyme/releases)
 - [sowon](https://github.com/tsoding/sowon)
+- [github_issue_roulette](https://github.com/JonasFocke01/github_issue_roulette)
+- [remindy](https://github.com/JonasFocke01/remindy)
 
 ### i3 Setup to make a barebones distro usable
 
