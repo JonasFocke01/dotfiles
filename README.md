@@ -104,6 +104,7 @@ This is a handy list of software i use on some machines, but not all.
 - Vesktop (Discord)
 - Spotify
 - Filelight
+- ytDownloader (after install: `sudo flatpak override io.github.aandrew_me.ytdn --filesystem=home`)
 - Mariadb
   On voidlinux do
     1. xbps install
