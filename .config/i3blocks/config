@@ -22,6 +22,10 @@ separator=false
 interval=10
 separator=false
 
+[pico_debug_probe]
+interval=10
+separator=false
+
 [tigerly]
 interval=10
 

@@ -1,0 +1,5 @@
+#!/bin/bash
+
+if [ $(probe-rs list | wc -l) -eq 2 ]; then
+    echo "<span color='#00FF00'>Pico</span>"
+fi
