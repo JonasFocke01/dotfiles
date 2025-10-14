@@ -51,6 +51,7 @@ for_window [class="steam"] floating enable
 for_window [class="vesktop"] floating enable
 for_window [class="filelight"] floating enable
 for_window [class="ytdownloader"] floating enable
+for_window [class="jdownloader"] floating enable
 
 for_window [floating] move position center
 

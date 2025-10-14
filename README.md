@@ -105,6 +105,7 @@ This is a handy list of software i use on some machines, but not all.
 - Spotify
 - Filelight
 - ytDownloader (after install: `sudo flatpak override io.github.aandrew_me.ytdn --filesystem=home`)
+- JDownloader  (after install: `sudo flatpak override org.jdownloader.JDownloader --filesystem=home`)
 - Mariadb
   On voidlinux do
     1. xbps install
