@@ -6,6 +6,8 @@ Here _might_ be trivial things listed for the sake of having a list of them.
 
 ## Selfmade stiched-together 'desktop environment'
 
+Hint for voidlinux: run `sudo xbps-install -Su`
+
 ### Software to be productive on any DE
 
 - Flameshot
