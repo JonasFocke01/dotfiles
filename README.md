@@ -196,6 +196,17 @@ if (subject.isInGroup("wheel")) {
 });
 ```
 
+### Install splashscreen
+
+Reference: [voidsplash](https://github.com/jaylesworth/voidsplash)
+
+1. Copy `voidsplash` to `/bin`
+2. Edit `/etc/runit/1` -> Insert line `/bin/voidsplash` as early as possible
+3. Create directory `/etc/voidsplash`
+4. Move `splashscreen.png` to `/etc/voidsplash`
+5. Edit `/etc/default/grub` -> Edit line `GRUB_CMDLINE_LINUX_DEFAULT` to contain `[...] console=tty2'`
+6. Run `sudo grub-mkconfig -o /boot/grub/grub.cfg`
+
 ### dbus-session missing:
 
 1. Edit file `/usr/share/xsessions/i3.desktop`
