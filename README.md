@@ -4,22 +4,6 @@ This repository contains a collection of dotfiles.
 The `README` also lists common software i use and tips, how to install things how i like them.
 Here _might_ be trivial things listed for the sake of having a list of them.
 
-## Dotfiles
-
-HINT: Install SSH to connect with GH first before cloning anything
-
-For using the full experience of the contained dotfiles, one would do this:
-
-- install `stow`
-    ```bash
-    cd $HOME && \
-    git clone git@github.com:JonasFocke01/dotfiles.git && \
-    cd dotfiles && \
-    stow --adopt . && \
-    git restore . && \
-    fc-cache -f -v
-    ```
-    
 ## Selfmade stiched-together 'desktop environment'
 
 ### Software to be productive on any DE
@@ -75,6 +59,10 @@ For using the full experience of the contained dotfiles, one would do this:
 - Ulauncher
 - Udiskie
 - wmctrl
+- make
+- SDL2-devel
+- gcc
+- pkg-config
 - Dolphin
     + Somehow installing `qt5ct` made it more usable
 
@@ -94,11 +82,6 @@ For using the full experience of the contained dotfiles, one would do this:
 - `ln -s /etc/sv/lightdm /var/service/`
 - Lightdm-gtk-greeter
 - Sysstat
-- make
-- SDL2-devel
-- gcc
-- pkg-config
-- Vulkan-Tools
 - [nvidia drivers](https://docs.voidlinux.org/config/graphical-session/graphics-drivers/nvidia.html)
 
 ### Mobile
@@ -133,6 +116,22 @@ This is a handy list of software i use on some machines, but not all.
     curl --proto '=https' --tlsv1.2 -LsSf https://github.com/probe-rs/probe-rs/releases/latest/download/probe-rs-tools-installer.sh | sh
     ```
     follow instructons on [this site](https://probe.rs/docs/getting-started/probe-setup/)
+
+## Dotfiles
+
+HINT: Install SSH to connect with GH first before cloning anything
+
+For using the full experience of the contained dotfiles, one would do this:
+
+- install `stow`
+    ```bash
+    cd $HOME && \
+    git clone git@github.com:JonasFocke01/dotfiles.git && \
+    cd dotfiles && \
+    stow --adopt . && \
+    git restore . && \
+    fc-cache -f -v
+    ```
 
 ## Tips, tricks
 

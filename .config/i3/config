@@ -10,9 +10,10 @@ exec --no-startup-id $HOME/.config/i3/start_firefox.sh
 exec --no-startup-id udiskie
 exec --no-startup-id picom
 
-exec_always --no-startup-id while ! ping -c 1 1.1.1.1 ; do sleep 1 ; done && sudo mkdir -p /mnt/tigerly/Allgemeine\ Daten && sudo mount -t cifs "//192.168.2.50/Allgemeine Daten" "/mnt/tigerly/Allgemeine Daten" -o username=manfild,password=DSsiKul24Sd,uid=$(id -u),gid=$(id -g),vers=1.0
-exec_always --no-startup-id while ! ping -c 1 1.1.1.1 ; do sleep 1 ; done && sudo mkdir -p /mnt/tigerly/docker && sudo mount -t cifs "//192.168.2.50/docker" "/mnt/tigerly/docker" -o username=manfild,password=DSsiKul24Sd,uid=$(id -u),gid=$(id -g),vers=1.0
-exec_always --no-startup-id while ! ping -c 1 1.1.1.1 ; do sleep 1 ; done && sudo mkdir -p /mnt/tigerly/video && sudo mount -t cifs "//192.168.2.50/video" "/mnt/tigerly/video" -o username=manfild,password=DSsiKul24Sd,uid=$(id -u),gid=$(id -g),vers=1.0
+# exec_always --no-startup-id while ! ping -c 1 1.1.1.1 ; do sleep 1 ; done && sudo mkdir -p /mnt/tigerly/Allgemeine\ Daten && sudo mount -t cifs "//192.168.2.50/Allgemeine Daten" "/mnt/tigerly/Allgemeine Daten" -o username=manfild,password=DSsiKul24Sd,uid=$(id -u),gid=$(id -g),vers=1.0
+# exec_always --no-startup-id while ! ping -c 1 1.1.1.1 ; do sleep 1 ; done && sudo mkdir -p /mnt/tigerly/docker && sudo mount -t cifs "//192.168.2.50/docker" "/mnt/tigerly/docker" -o username=manfild,password=DSsiKul24Sd,uid=$(id -u),gid=$(id -g),vers=1.0
+# exec_always --no-startup-id while ! ping -c 1 1.1.1.1 ; do sleep 1 ; done && sudo mkdir -p /mnt/tigerly/video && sudo mount -t cifs "//192.168.2.50/video" "/mnt/tigerly/video" -o username=manfild,password=DSsiKul24Sd,uid=$(id -u),gid=$(id -g),vers=1.0
+exec_always --no-startup-id $HOME/.config/i3/mount_nas.sh
 
 exec --no-startup-id setxkbmap -option caps:escape
 exec_always --no-startup-id xset r rate 200 30
