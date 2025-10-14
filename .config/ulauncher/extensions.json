@@ -2,7 +2,7 @@
     "com.github.tevenfeng.ulauncher-dc": {
         "id": "com.github.tevenfeng.ulauncher-dc",
         "url": "https://github.com/tevenfeng/ulauncher-dc",
-        "updated_at": "2025-06-08T13:03:16.597862",
+        "updated_at": "2025-10-14T14:38:17.043787",
         "last_commit": "4cdeb58b1f79b64f2f6e3b4eecc3a38b81c886ea",
         "last_commit_time": "2022-06-16T09:10:28"
     },
@@ -23,7 +23,7 @@
     "com.github.friday.ulauncher-clipboard": {
         "id": "com.github.friday.ulauncher-clipboard",
         "url": "https://github.com/friday/ulauncher-clipboard",
-        "updated_at": "2025-06-08T13:03:24.969310",
+        "updated_at": "2025-10-14T14:38:18.013994",
         "last_commit": "73420cf4816f925321db15379c9c981c8f28c6fe",
         "last_commit_time": "2022-08-03T20:22:13"
     },
