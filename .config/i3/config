@@ -12,6 +12,7 @@ exec --no-startup-id picom
 exec --no-startup-id dunst
 
 exec_always --no-startup-id $HOME/.config/i3/mount_nas.sh
+exec_always --no-startup-id $HOME/.config/i3/pico_probe_detection.sh
 
 exec --no-startup-id setxkbmap -option caps:escape
 exec_always --no-startup-id xset r rate 200 30
