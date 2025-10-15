@@ -136,7 +136,8 @@ git clone git@github.com:JonasFocke01/dotfiles.git && \
 cd dotfiles && \
 stow --adopt . && \
 git restore . && \
-fc-cache -f -v
+fc-cache -f -v && \
+sudo cp .config/i3lock/x_i3lock_and_refresh_video_ouputs.sh /etc/zzz.d/resume
 ```
 
 ## Tips, tricks
