@@ -1,11 +1,4 @@
 {
-    "com.github.tevenfeng.ulauncher-dc": {
-        "id": "com.github.tevenfeng.ulauncher-dc",
-        "url": "https://github.com/tevenfeng/ulauncher-dc",
-        "updated_at": "2025-10-14T14:38:17.043787",
-        "last_commit": "4cdeb58b1f79b64f2f6e3b4eecc3a38b81c886ea",
-        "last_commit_time": "2022-06-16T09:10:28"
-    },
     "com.github.iboyperson.ulauncher-system": {
         "id": "com.github.iboyperson.ulauncher-system",
         "url": "https://github.com/iboyperson/ulauncher-system",
@@ -26,12 +19,5 @@
         "updated_at": "2025-10-14T14:38:18.013994",
         "last_commit": "73420cf4816f925321db15379c9c981c8f28c6fe",
         "last_commit_time": "2022-08-03T20:22:13"
-    },
-    "com.github.hippo-o-matic.ulauncher-qalc": {
-        "id": "com.github.hippo-o-matic.ulauncher-qalc",
-        "url": "https://github.com/hippo-o-matic/ulauncher-qalc",
-        "updated_at": "2025-10-14T14:32:34.110387",
-        "last_commit": "45882831f57c265ee3b4bf47cdb862379d47a89a",
-        "last_commit_time": "2021-03-03T03:33:36"
     }
 }
