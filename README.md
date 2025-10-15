@@ -130,15 +130,14 @@ HINT: Install SSH to connect with GH first before cloning anything
 
 For using the full experience of the contained dotfiles, one would do this:
 
-- install `stow`
-    ```bash
-    cd $HOME && \
-    git clone git@github.com:JonasFocke01/dotfiles.git && \
-    cd dotfiles && \
-    stow --adopt . && \
-    git restore . && \
-    fc-cache -f -v
-    ```
+```bash
+cd $HOME && \
+git clone git@github.com:JonasFocke01/dotfiles.git && \
+cd dotfiles && \
+stow --adopt . && \
+git restore . && \
+fc-cache -f -v
+```
 
 ## Tips, tricks
 
