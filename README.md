@@ -82,8 +82,8 @@ Hint for voidlinux: run `sudo xbps-install -Su`
     - alsa-firmware
     - pavucontrol
     - pulseaudio
-- `ln -s /etc/sv/dbus /var/service/`
-- `ln -s /etc/sv/lightdm /var/service/`
+- `ln -s /etc/sv/dbus /var/service/dbus`
+- `ln -s /etc/sv/lightdm /var/service/lightdm`
 - Lightdm-gtk-greeter
 - Sysstat
 - Vulkan-Tools
