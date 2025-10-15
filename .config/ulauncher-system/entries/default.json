@@ -3,7 +3,6 @@
         "command": "$HOME/.config/i3lock/prepare_lockimage.sh && i3lock -i /tmp/lockscreen.png"
     },
     "hibernate": null,
-    "bios": null,
     "suspend": {
         "command": "$HOME/.config/i3lock/prepare_lockimage.sh && sudo zzz"
     },
@@ -19,18 +18,18 @@
         "aliases": ["Restart"],
         "command": "sudo shutdown -r now"
     },
+    "bios": {
+        "name": "[NOT SUPPORTED ON RUNIT] Firmware setup",
+        "description": "Restart to system firmware (bios/uefi)",
+        "icon": "bios",
+        "aliases": ["bios", "firmware", "system", "uefi", "setup"],
+        "command": ""
+    },
     "logout": {
         "name": "Logout",
         "description": "Logout to switch user or de",
         "icon": "system-log-out",
         "aliases": ["Logout"],
         "command": "pkill -SIGKILL -u $(whoami)"
-    },
-    "windows": {
-        "name": "Restart to Windows",
-        "description": "Restart to the dualboot-windows",
-        "icon": "",
-        "aliases": ["windows"],
-        "command": "sudo efibootmgr -n $(efibootmgr -v | grep Windows | grep -o '000[0-9]') && sudo shutdown -r now"
     }
 }
