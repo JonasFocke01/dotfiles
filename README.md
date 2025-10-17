@@ -92,9 +92,11 @@ Hint for voidlinux: run `sudo xbps-install -Su`
 ### Mobile
 
 - Tlp
-- Network-manager-gnome TODO: is this correct?
-- Wifi TODO
-- Bluetooth TODO
+- NetworkManager -> `sudo ln -s /etc/sv/NetworkManager /var/service/`
+- Bluetooth
+    - libspa-bluetooth
+    - blueman
+    - bluez-cups
 
 ### Additional
 
