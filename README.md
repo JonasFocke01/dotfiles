@@ -98,6 +98,7 @@ Hint for voidlinux: run `sudo xbps-install -Su`
     - libspa-bluetooth
     - blueman
     - bluez-cups
+    - bluez
 
 ### Additional
 
