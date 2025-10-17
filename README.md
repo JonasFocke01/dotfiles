@@ -168,6 +168,7 @@ This registers some commands, so that `sudo xyz` wont prompt for a password (use
     - `/usr/bin/efibootmgr`
     - `/usr/bin/mount`
     - `/usr/bin/mkdir`
+    - `/usr/bin/NetworkManager`
 
 ### SSH
 
