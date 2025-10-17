@@ -1,7 +1,7 @@
 set $mod Mod4
 floating_modifier $mod
 
-font pango:Monocraft 8
+font pango:Monocraft 10
 
 exec --no-startup-id nm-applet
 exec --no-startup-id $HOME/.config/i3/set-daily-wallpaper.sh
@@ -111,7 +111,7 @@ client.urgent #ED8796 #ED8796 #1E2030
 bar {
     status_command SCRIPT_DIR=/home/jonas/.config/i3blocks/scripts/ i3blocks
     mode hide
-    font pango:Monocraft 10
+    font pango:Monocraft 12
     colors {
         background #1E2030
         separator #939ab7
