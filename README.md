@@ -93,6 +93,7 @@ Hint for voidlinux: run `sudo xbps-install -Su`
 
 - Tlp
 - NetworkManager -> `sudo ln -s /etc/sv/NetworkManager /var/service/`
+- network-manager-applet
 - Bluetooth
     - libspa-bluetooth
     - blueman
