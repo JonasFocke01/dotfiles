@@ -100,7 +100,17 @@ Hint for voidlinux: run `sudo xbps-install -Su`
 
 This is a handy list of software i use on some machines, but not all.
 
-- Steam (takes reeeealy long to start)
+- Steam (takes reeeealy long to start; xbps version needs further investigation. Is this all correct?)
+    - gtk2-engines-32bit
+    - libgcc-32bit
+    - libstdc++-32bit
+    - libdrm-32bit
+    - libglvnd-32bit
+    - mesa-dri-32bit
+    - pipewire-32bit
+    - libva-32bit
+    - libvdpau-32bit
+    - I also installed this `octoxbps cinnamon-all xdg-desktop-portal xdg-desktop-portal-gtk xdg-user-dirs xdg-user-dirs-gtk xdg-utils` but i dont know if this helps. Anyway, i rebooted and logged into cinnamon before it worked
 - Vesktop (Discord)
 - Spotify
 - Filelight
@@ -164,6 +174,14 @@ This registers some commands, so that `sudo xyz` wont prompt for a password (use
 - Edit `/etc/lightdm/lightdm.conf` and uncomment the lines in section `[Seat:*]`
 - Search for `autologin-user=` and change it to `autologin-user=USERNAME`
 - Search for `autologin-user-timeout=0` and change it from `0` to `1`
+
+### Printer
+
+TODO: Investigate if this works
+
+`sudo xbps-install -y cups cups-filters gutenprint system-config-printer`
+`sudo ln -s /etc/sv/cupsd /var/service/`
+`sudo xbps-install -y gnome-system-tools users-admin`
 
 ### Default applications
 
