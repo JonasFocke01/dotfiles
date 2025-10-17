@@ -181,11 +181,13 @@ This registers some commands, so that `sudo xyz` wont prompt for a password (use
 
 ### Printer
 
-TODO: Investigate if this works
-
-`sudo xbps-install -y cups cups-filters gutenprint system-config-printer`
-`sudo ln -s /etc/sv/cupsd /var/service/`
-`sudo xbps-install -y gnome-system-tools users-admin`
+- cups
+- cups-filters
+- gutenprint
+- system-config-printer
+- hplip
+- `sudo ln -s /etc/sv/cupsd /var/service/`
+- run `hp-setup` and walk through the installer
 
 ### Default applications
 
