@@ -124,6 +124,7 @@ All sub-points inherit the markings of theyr parents.
                 }
                 });
                 ```
+           Troubleshooting advice: pico probe requires us to put a file in **directory** rules.d, not ~file~ rules.d
 
 ### Officework
 
