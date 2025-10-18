@@ -32,7 +32,7 @@ All sub-points inherit the markings of theyr parents.
 - wmctrl
 - pkg-config
 - gvfs
-- NetworkManager -> `# sudo ln -s /etc/sv/NetworkManager /var/service/NetworkManager`
+- NetworkManager -> `# ln -s /etc/sv/NetworkManager /var/service/NetworkManager`
 - network-manager-applet
 - [p] alacritty
 - [v] xorg
