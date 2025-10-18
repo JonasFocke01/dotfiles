@@ -1,12 +1,12 @@
 # My dotfiles and software collection
 
-This repository contains a collection of dotfiles.
-The `README` also lists common software i use and tips, how to install things to my liking.
-The list of software and the install instructions are in part very specific to my setup on [void-bare](https://voidlinux.org/download/).
+This repository contains a collection of dotfiles.  
+The `README` also lists common software i use and tips, how to install things to my liking.  
+The list of software and the install instructions are in part very specific to my setup on [void-bare](https://voidlinux.org/download/).  
 
-[v] => Confirmed to be only working/available/required in the `xbps` ecosystem, or only tested there.
-[p] => Needs further investigation. Might be modified or ignored in the future, but this is fine for now.
-[f] => Currently requires being installed via flatpak. (Might only be because im to lazy or incompetent)
+[v] => Confirmed to be only working/available/required in the `xbps` ecosystem, or only tested there.  
+[p] => Needs further investigation. Might be modified or ignored in the future, but this is fine for now.  
+[f] => Currently requires being installed via flatpak. (Might only be because im to lazy or incompetent)  
 All sub-points inherit the markings of theyr parents.
 
 ## List of software
@@ -123,7 +123,7 @@ All sub-points inherit the markings of theyr parents.
                         return permission[action.id];
                 }
                 });
-                ```
+                ```  
            Troubleshooting advice: pico probe requires us to put a file in **directory** rules.d, not ~file~ rules.d
 
 ### Officework
