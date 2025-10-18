@@ -157,7 +157,7 @@ All sub-points inherit the markings of theyr parents.
     - [v] pipewire-32bit
     - [v] libva-32bit
     - [v] libvdpau-32bit
-    - [p] I also installed this `octoxbps cinnamon-all xdg-desktop-portal xdg-desktop-portal-gtk xdg-user-dirs xdg-user-dirs-gtk xdg-utils` but i dont know if this helps. Anyway, i rebooted and logged into cinnamon before it worked
+    - Hint: `nvidia` and `nvidia-libs-32bit` need to be installed for steam to work
 - [f] vesktop (Discord)
 
 ### Bluetooth
