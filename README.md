@@ -78,6 +78,7 @@ All sub-points inherit the markings of theyr parents.
 - jq
 - xclip
 - bat
+- lz4
 - [cyme](https://github.com/tuna-f1sh/cyme/releases)
 - [sowon](https://github.com/tsoding/sowon)
 - [github_issue_roulette](https://github.com/JonasFocke01/github_issue_roulette)
