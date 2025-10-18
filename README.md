@@ -10,25 +10,25 @@ Hint for voidlinux: run `sudo xbps-install -Su`
 
 ### Software to be productive on any DE
 
-- Flameshot
-- Firefox
-- Fzf
-- Fd
-- Btop
-- Alacritty
-- Eza
-- Zsh
+- flameshot
+- firefox
+- fzf
+- fd
+- btop
+- alacritty
+- eza
+- zsh
     - `chsh -s /usr/bin/zsh`
 - Oh-My-Zsh
     - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
     - `git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
     - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
-- Neovim
-- Ripgrep
-- Flatpak
+- neovim
+- ripgrep
+- flatpak
     - `sudo flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
-- Vlc
-- Xclip
+- vlc
+- xclip
 - Stow
 - bat
 - ncspot
@@ -50,18 +50,18 @@ Hint for voidlinux: run `sudo xbps-install -Su`
 - [github_issue_roulette](https://github.com/JonasFocke01/github_issue_roulette)
 - [remindy](https://github.com/JonasFocke01/remindy)
 
-### i3 Setup to make a barebones distro usable
+### Desktopenvironment
 
 - i3
 - i3blocks
 - i3lock
-- Lightdm
-- Dunst
-- Picom
-- Feh
-- ImageMagick
-- Ulauncher
-- Udiskie
+- lightdm
+- dunst
+- picom
+- feh
+- imageMagick
+- ulauncher
+- udiskie
 - wmctrl
 - make
 - SDL2-devel
@@ -72,9 +72,9 @@ Hint for voidlinux: run `sudo xbps-install -Su`
 
 ### Voidlinux specific
 
-- Xorg
-- Xz (package with `tar` and so on)
-- Dbus
+- xorg
+- xz (package with `tar` and so on)
+- dbus
 - Audio
     - alsa-utils
     - alsa-plugins
@@ -84,14 +84,14 @@ Hint for voidlinux: run `sudo xbps-install -Su`
     - pulseaudio
 - `ln -s /etc/sv/dbus /var/service/dbus`
 - `ln -s /etc/sv/lightdm /var/service/lightdm`
-- Lightdm-gtk-greeter
-- Sysstat
+- lightdm-gtk-greeter
+- sysstat
 - Vulkan-Tools
 - [nvidia drivers](https://docs.voidlinux.org/config/graphical-session/graphics-drivers/nvidia.html)
 
 ### Mobile
 
-- Tlp
+- tlp
 - NetworkManager -> `sudo ln -s /etc/sv/NetworkManager /var/service/`
 - network-manager-applet
 - Bluetooth
@@ -115,16 +115,14 @@ This is a handy list of software i use on some machines, but not all.
     - libva-32bit
     - libvdpau-32bit
     - I also installed this `octoxbps cinnamon-all xdg-desktop-portal xdg-desktop-portal-gtk xdg-user-dirs xdg-user-dirs-gtk xdg-utils` but i dont know if this helps. Anyway, i rebooted and logged into cinnamon before it worked
-- Vesktop (Discord)
-- Spotify
-- Filelight
+- vesktop (Discord)
+- spotify
+- filelight
 - ytDownloader (after install: `sudo flatpak override io.github.aandrew_me.ytdn --filesystem=home`)
 - JDownloader  (after install: `sudo flatpak override org.jdownloader.JDownloader --filesystem=home`)
 - Mariadb
-  On voidlinux do
-    1. xbps install
-    2. `sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql`
-    3. Enable service: `sudo ln -s /etc/sv/mysqld /var/service/mysqld`
+    1. `sudo mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql`
+    2. Enable service: `sudo ln -s /etc/sv/mysqld /var/service/mysqld`
 - Rust
     ```bash
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y && \
