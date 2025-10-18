@@ -146,7 +146,7 @@ All sub-points inherit the markings of theyr parents.
 - [f] spotify
 - [p] Steam (takes reeeealy long for first start)
     - [v] Vulkan-Tools
-    - [v] gtk2-engines-32bit
+    - [p][v] gtk2-engines-32bit
     - [v] libgcc-32bit
     - [v] libstdc++-32bit
     - [v] libdrm-32bit
