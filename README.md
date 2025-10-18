@@ -60,7 +60,7 @@ All sub-points inherit the markings of theyr parents.
 - stow
 - [p] flatpak -> `# flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
 - firefox
-- xdg-settings -> `xdg-settings set default-web-browser firefox.desktop`
+- xdg-utils -> `xdg-settings set default-web-browser firefox.desktop`
 
 ### Softwaredevelopment
 
