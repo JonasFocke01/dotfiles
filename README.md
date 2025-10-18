@@ -203,7 +203,6 @@ With this modifications, `sudo xyz` wont prompt for a password (use this careful
     - `/usr/bin/efibootmgr`
     - `/usr/bin/mount`
     - `/usr/bin/mkdir`
-    - `/usr/bin/NetworkManager`
 
 ### Install splashscreen
 
