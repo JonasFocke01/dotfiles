@@ -62,6 +62,7 @@ All sub-points inherit the markings of theyr parents.
 - [p] flatpak -> `# flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
 - firefox
 - xdg-utils -> `xdg-settings set default-web-browser firefox.desktop`
+- qemu-user-static
 
 ### Softwaredevelopment
 
