@@ -43,7 +43,7 @@ bindsym $mod+f fullscreen toggle
 bindsym $mod+Shift+space floating toggle
 bindsym $mod+space focus mode_toggle
 
-for_window [class="Thunar"] floating enable
+for_window [class="dolphin"] floating enable
 for_window [class="feh"] floating enable
 for_window [class="vlc"] floating enable
 for_window [class="Audacity"] floating enable
