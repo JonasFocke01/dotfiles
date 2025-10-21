@@ -33,7 +33,7 @@ All sub-points inherit the markings of theyr parents.
 - pkg-config
 - gvfs
 - fbv
-- NetworkManager -> `# ln -s /etc/sv/NetworkManager /var/service/NetworkManager`
+- NetworkManager -> `# ln -s /etc/sv/NetworkManager /var/service/NetworkManager` -> `# rm /var/service/dhcpcd`
 - network-manager-applet
 - [p] alacritty
 - [v] xorg
