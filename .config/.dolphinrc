@@ -1,0 +1,21 @@
+[ContextMenu]
+ShowCopyToOtherSplitView=false
+ShowMoveToOtherSplitView=false
+ShowOpenInSplitView=false
+ShowOpenTerminal=false
+ShowSortBy=false
+ShowViewMode=false
+
+[General]
+Version=202
+ViewPropsTimestamp=2025,10,20,12,32,40.996
+
+[KFileDialog Settings]
+Places Icons Auto-resize=false
+Places Icons Static Size=22
+
+[MainWindow]
+MenuBar=Disabled
+
+[PreviewSettings]
+Plugins=audiothumbnail,avif,comicbookthumbnail,cursorthumbnail,djvuthumbnail,ebookthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,mltpreview,opendocumentthumbnail,gdk-pixbuf-thumbnailer,librsvg,svgthumbnail
