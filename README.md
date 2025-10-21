@@ -130,13 +130,14 @@ All sub-points inherit the markings of theyr parents.
 
 ### Officework
 
-- [p] dolphin -> make sure, that `/etc/xdg/menus` contains `plasma-applications.menu` and do `# ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu`
+- [p] dolphin => make sure, that `/etc/xdg/menus` contains `plasma-applications.menu` and do `# ln -s /etc/xdg/menus/plasma-applications.menu /etc/xdg/menus/applications.menu` => UI: configure dolphin -> Context Menu -> Download new -> `Extract Here` by `merrittkr`
 - flameshot
 - vlc
 - gimp
 - zip
 - unzip
 - 7zip
+- ark
 - libreoffice
 - [f] filelight
 - [f] ytDownloader -> `# flatpak override io.github.aandrew_me.ytdn --filesystem=home`
