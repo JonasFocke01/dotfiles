@@ -22,7 +22,7 @@ setopt HIST_REDUCE_BLANKS
 setopt APPEND_HISTORY INC_APPEND_HISTORY SHARE_HISTORY
 bindkey -v # vi mode
 
-alias ls='eza -l --git --icons -a'
+alias ls='eza -l --git --icons -a --group-directories-first -g --git-repos'
 alias vim='nvim'
 alias ':q'=exit
 alias lsusb='cyme'
