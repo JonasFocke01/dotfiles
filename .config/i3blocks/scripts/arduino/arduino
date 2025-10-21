@@ -3,6 +3,6 @@
 mounted=$(ls /dev/ttyUSB0 2> /dev/null | grep ttyUSB0 | wc -l)
 
 if [ "$mounted" -eq 1 ]; then
-    echo "<span color='#00FF00'>Arduino</span>"
+    echo "<span color='#a6da95'>Arduino</span>"
 fi
 

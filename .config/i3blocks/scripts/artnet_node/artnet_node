@@ -3,5 +3,5 @@
 ping -c 1 "192.168.2.222" > /dev/null
 
 if [ $? -eq 0 ]; then
-    echo "<span color='#00FF00'>ArtNet-Node</span>"
+    echo "<span color='#a6da95'>ArtNet-Node</span>"
 fi

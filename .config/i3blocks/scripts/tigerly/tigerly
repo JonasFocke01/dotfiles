@@ -3,6 +3,6 @@
 mounted=$(ls -A /mnt/tigerly | wc -l)
 
 if [ "$mounted" -gt 2 ]; then
-    echo "<span color='#00FF00'>Tigerly</span>"
+    echo "<span color='#a6da95'>Tigerly</span>"
 fi
 
