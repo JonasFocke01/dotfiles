@@ -32,6 +32,15 @@ interval=10
 [solar-overview]
 interval=2
 
+[battery-plus]
+command=command -v tlp >/dev/null 2>&1 && ./scripts/battery-plus/battery-plus
+interval=10
+separator=false
+
+[tlp]
+command=command -v tlp >/dev/null 2>&1 && ./scripts/tlp/tlp
+interval=60
+
 [memory]
 separator=false
 interval=30

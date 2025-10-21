@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo tlp-stat -b | grep "charge_control_threshold" | awk ' tlp: {print $3"-"$4}'
