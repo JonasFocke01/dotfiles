@@ -130,7 +130,7 @@ All sub-points inherit the markings of theyr parents.
 
 ### Officework
 
-- [p] Thunar
+- [p] dolphin
 - flameshot
 - vlc
 - gimp
