@@ -20,8 +20,8 @@ All sub-points inherit the markings of theyr parents.
     -> `# ln -s /etc/sv/lightdm /var/service/lightdm`
     Autologin:
     -> `# vi /etc/lightdm/lightdm.conf` Section `[Seat:*]`
-        => `autologin-user= ` -> `autologin-user=USERNAME`
-        => `autologin-user-timeout=0` -> `autologin-user-timeout=1`
+        => `#autologin-user= ` -> `autologin-user=USERNAME`
+        => `#autologin-user-timeout=0` -> `autologin-user-timeout=1`
 - [v] lightdm-gtk-greeter
 - dunst
 - picom
@@ -63,7 +63,7 @@ All sub-points inherit the markings of theyr parents.
 - firefox
 - xdg-utils -> `xdg-settings set default-web-browser firefox.desktop`
 - qemu-user-static
-- [p] kde5 *We probaby only need a polkit frontend, but i could not for the live of me figure this one out. Just install kde5 for now and live with the additiaonal 1GB*
+- [p] kde5 *We probaby only need a polkit frontend, but i could not for the live of me figure this one out. Just install kde5 for now and live with the additiaonal 1GB. This is also needed for dolphin to work properly*
 
 ### Softwaredevelopment
 
