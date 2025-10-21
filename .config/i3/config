@@ -8,7 +8,7 @@ exec --no-startup-id sudo NetworkManager
 exec --no-startup-id $HOME/.config/i3/set-daily-wallpaper.sh
 exec --no-startup-id ulauncher --no-window-shadow
 exec --no-startup-id $HOME/.config/i3/start_firefox.sh
-exec --no-startup-id udiskie
+exec --no-startup-id udiskie -s
 exec --no-startup-id picom
 exec --no-startup-id dunst
 
