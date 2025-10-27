@@ -140,6 +140,8 @@ All sub-points inherit the markings of theyr parents.
 - unzip
 - 7zip
 - ark
+- wine
+- wine-32bit
 - libreoffice
 - [f] filelight
 - [f] ytDownloader -> `# flatpak override io.github.aandrew_me.ytdn --filesystem=home`
