@@ -33,12 +33,12 @@ interval=10
 interval=2
 
 [battery-plus]
-command=command -v tlp >/dev/null 2>&1 && ./scripts/battery-plus/battery-plus
+command=where tlp >/dev/null 2>&1 && ./scripts/battery-plus/battery-plus
 interval=10
 separator=false
 
 [tlp]
-command=command -v tlp >/dev/null 2>&1 && ./scripts/tlp/tlp
+command=where tlp >/dev/null 2>&1 && ./scripts/tlp/tlp
 interval=60
 
 [memory]

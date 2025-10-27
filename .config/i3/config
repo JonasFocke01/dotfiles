@@ -21,7 +21,7 @@ exec_always --no-startup-id setxkbmap de
 exec_always --no-startup-id xset s off
 exec_always --no-startup-id xset s noblank
 exec_always --no-startup-id xset -dpms
-exec_always --no-startup-id command -v tlp >/dev/null 2>&1 && sudo tlp setcharge 70 80
+exec_always --no-startup-id where tlp >/dev/null 2>&1 && sudo tlp setcharge 70 80
 
 bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
