@@ -12,9 +12,7 @@ sudo mkdir -p "$data_dir"
 sudo mkdir -p "$docker_dir"
 sudo mkdir -p "$video_dir"
 
-sudo chown $(sudo -u $(whoami) whoami) "$data_dir"
-sudo chown $(sudo -u $(whoami) whoami) "$data_dir"
-sudo chown $(sudo -u $(whoami) whoami) "$data_dir"
+sudo chown $(sudo -u $(whoami) whoami) "$data_dir" -R
 
 while ! ping -c 1 1.1.1.1 ; do sleep 1 ; done
 
