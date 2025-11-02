@@ -197,7 +197,7 @@ All sub-points inherit the markings of theyr parents.
     To establish a ssh connection to github do
     - `ssh-keygen -f $HOME/.ssh/id_rsa -N '' && cat $HOME/.ssh/*.pub | xclip -selection clipboard && xdg-open https://github.com/settings/ssh/new`
 2. Move into dotfiles dir
-3. `stow --adopt .`
+3. `stow --adopt --no-folding .`
 4. `git restore .`
 5. `fc-cache -f -v`
 6. `# cp .config/i3lock/x_i3lock_and_refresh_video_ouputs.sh /etc/zzz.d/resume`
