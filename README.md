@@ -166,7 +166,8 @@ All sub-points inherit the markings of theyr parents.
     - [v] pipewire-32bit
     - [v] libva-32bit
     - [v] libvdpau-32bit
-    - Hint: `nvidia` and `nvidia-libs-32bit` need to be installed for steam to work
+- MangoHud
+    - Hint: `nvidia` and `nvidia-libs-32bit` need to be installed for Steam to work
 - [f] vesktop (Discord)
 
 ### Bluetooth
