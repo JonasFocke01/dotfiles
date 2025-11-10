@@ -146,7 +146,7 @@ All sub-points inherit the markings of theyr parents.
 - libreoffice
 - [f] filelight
 - [f] ytDownloader -> `# flatpak override io.github.aandrew_me.ytdn --filesystem=home`
-- [f] JDownloader  -> `# flatpak override org.jdownloader.JDownloader --filesystem=home`
+- uget
 
 ### Media
 
