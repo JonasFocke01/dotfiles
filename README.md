@@ -35,6 +35,7 @@ All sub-points inherit the markings of theyr parents.
 - fbv
 - NetworkManager -> `# ln -s /etc/sv/NetworkManager /var/service/NetworkManager` -> `# rm /var/service/dhcpcd`
 - network-manager-applet
+- chrony -> `# ln -s /etc/sv/chronyd /var/service/chronyd`
 - [p] alacritty
 - [v] xorg
 - [v] xz (package with `tar` and so on)
