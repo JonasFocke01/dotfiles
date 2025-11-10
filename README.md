@@ -138,6 +138,7 @@ All sub-points inherit the markings of theyr parents.
 - gimp
 - zip
 - unzip
+- unrar
 - 7zip
 - ark
 - wine
