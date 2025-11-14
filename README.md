@@ -148,6 +148,8 @@ All sub-points inherit the markings of theyr parents.
 - [f] filelight
 - [f] ytDownloader -> `# flatpak override io.github.aandrew_me.ytdn --filesystem=home`
 - uget
+- qBittorrent
+- protonvpn
 
 ### Media
 
