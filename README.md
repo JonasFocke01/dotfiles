@@ -173,6 +173,7 @@ All sub-points inherit the markings of theyr parents.
 - MangoHud
     - Hint: `nvidia` and `nvidia-libs-32bit` need to be installed for Steam to work
 - [f] vesktop (Discord)
+- playerctl
 
 ### Bluetooth
 
