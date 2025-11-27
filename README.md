@@ -151,6 +151,7 @@ All sub-points inherit the markings of theyr parents.
 - uget
 - qBittorrent
 - protonvpn
+- rsync
 
 ### Media
 
