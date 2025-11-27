@@ -67,6 +67,7 @@ All sub-points inherit the markings of theyr parents.
 - snooze
 - ranger
 - [p] kde5 *We probaby only need a polkit frontend, but i could not for the live of me figure this one out. Just install kde5 for now and live with the additiaonal 1GB. This is also needed for dolphin to work properly*
+- socklog-void -> `# ln -s /etc/sv/socklog-unix /var/service/socklog-unix` & `# ln -s /etc/sv/nanoklogd /var/service/nanoklogd`
 
 ### Softwaredevelopment
 
