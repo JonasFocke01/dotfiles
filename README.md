@@ -1,12 +1,12 @@
 # My dotfiles and software collection
 
-This repository contains a collection of dotfiles.  
-The `README` also lists common software i use and tips, how to install things to my liking.  
-The list of software and the install instructions are in part very specific to my setup on [void-bare](https://voidlinux.org/download/).  
+This repository contains a collection of dotfiles.
+The `README` also lists common software i use and tips, how to install things to my liking.
+The list of software and the install instructions are in part very specific to my setup on [void-bare](https://voidlinux.org/download/).
 
-[v] => Confirmed to be only working/available/required in the `xbps` ecosystem, or only tested there.  
-[p] => Needs further investigation. Might be modified or ignored in the future, but this is fine for now.  
-[f] => Currently requires being installed via flatpak. (Might only be because im to lazy or incompetent)  
+[v] => Confirmed to be only working/available/required in the `xbps` ecosystem, or only tested there.
+[p] => Needs further investigation. Might be modified or ignored in the future, but this is fine for now.
+[f] => Currently requires being installed via flatpak. (Might only be because im to lazy or incompetent)
 All sub-points inherit the markings of theyr parents.
 
 ## List of software
@@ -67,7 +67,7 @@ All sub-points inherit the markings of theyr parents.
 - snooze
 - ranger
 - [p] kde5 *We probaby only need a polkit frontend, but i could not for the live of me figure this one out. Just install kde5 for now and live with the additiaonal 1GB. This is also needed for dolphin to work properly*
-- socklog-void -> `# ln -s /etc/sv/socklog-unix /var/service/socklog-unix` & `# ln -s /etc/sv/nanoklogd /var/service/nanoklogd`
+- qbittorrent-nox
 
 ### Softwaredevelopment
 
@@ -129,7 +129,7 @@ All sub-points inherit the markings of theyr parents.
                         return permission[action.id];
                 }
                 });
-                ```  
+                ```
            Troubleshooting advice: pico probe requires us to put a file in **directory** rules.d, not ~file~ rules.d
 
 ### Officework
@@ -146,6 +146,7 @@ All sub-points inherit the markings of theyr parents.
 - wine
 - wine-32bit
 - libreoffice
+- qbittorrent
 - [f] filelight
 - [f] ytDownloader -> `# flatpak override io.github.aandrew_me.ytdn --filesystem=home`
 - uget
