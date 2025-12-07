@@ -1,25 +1,33 @@
 #!/bin/bash
 
-current_date=$(date +%Y/%m/%d)
 wallpaper_path="$HOME/.cache/wallpaper.jpg"
 
-mkdir -p $(dirname "$wallpaper_path")
+updateWallpaper() {
+    mkdir -p $(dirname "$wallpaper_path")
 
-API_URL="https://api.wikimedia.org/feed/v1/wikipedia/en/featured/$current_date"
+    API_URL="https://api.wikimedia.org/feed/v1/wikipedia/en/featured/$(date +%Y/%m/%d)"
 
-if [ -e "$wallpaper_path" ]; then
-    feh --bg-fill "$wallpaper_path"
-fi
+    while ! ping -c 1 1.1.1.1 ; do sleep 1 ; done
 
-while ! ping -c 1 1.1.1.1 ; do sleep 1 ; done
+    response=$(curl -s "$API_URL")
 
-response=$(curl -s "$API_URL")
+    image_url=$(echo "$response" | jq -r '.image.image.source')
 
-image_url=$(echo "$response" | jq -r '.image.image.source')
+    if curl -o "$wallpaper_path" "$image_url"; then
+        notify-send "$(date +%d.%m.%Y\ %H:%M:%S) Wallpaper updated"
+    else
+        notify-send -u critical "$(date +%d.%m.%Y\ %H:%M:%S) Failed to download new wallpaper."
+    fi
+}
 
-curl -o $wallpaper_path "$image_url"
+while true; do
+    if [ -e "$wallpaper_path" ]; then
+        feh --bg-fill "$wallpaper_path"
+    fi
+    snooze -M 1 -s 1d -t "$wallpaper_path"
+    updateWallpaper;
+done
 
-feh --bg-fill "$wallpaper_path"
 
 # Sadly nasa is not available anymore
 #
