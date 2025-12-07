@@ -114,7 +114,7 @@ client.urgent #ED8796 #ED8796 #1E2030
 bar {
     status_command SCRIPT_DIR=/home/jonas/.config/i3blocks/scripts/ i3blocks
     mode hide
-    font pango:Monocraft 12
+    font pango:Monocraft 14
     colors {
         background #1E2030
         separator #939ab7
