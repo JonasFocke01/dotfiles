@@ -160,4 +160,13 @@ require('lazy').setup({
 
 
     { 'github/copilot.vim' },
+
+    {
+      "mikavilpas/yazi.nvim",
+      version = "*",
+      event = "VeryLazy",
+      dependencies = {
+        { "nvim-lua/plenary.nvim", lazy = true },
+      },
+    }
 })

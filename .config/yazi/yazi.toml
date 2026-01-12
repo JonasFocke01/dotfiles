@@ -1,0 +1,46 @@
+[mgr]
+mouse_events   = [ "click", "scroll", "touch" ]
+
+[preview]
+wrap            = "no"
+
+[opener]
+edit = [
+	{ run = "xdg-open %s1", desc = "$EDITOR",      for = "unix", block = true },
+]
+play = [
+	{ run = "xdg-open %s1",                desc = "Play", for = "linux" },
+]
+open = [
+	{ run = "xdg-open %s1",    desc = "Open", for = "linux" },
+]
+reveal = [
+	{ run = "xdg-open %d1",         desc = "Reveal", for = "linux" },
+]
+extract = [
+	{ run = "ya pub extract --list %s", desc = "Extract here" },
+]
+
+[open]
+rules = [
+    { name = "*", use = [ "open" ] },
+	# # Folder
+	# { url = "*/", use = [ "edit", "open", "reveal" ] },
+	# # Text
+	# { mime = "text/*", use = [ "edit", "reveal" ] },
+	# # Image
+	# { mime = "image/*", use = [ "open", "reveal" ] },
+	# # Media
+	# { mime = "{audio,video}/*", use = [ "play", "reveal" ] },
+	# # Archive
+	# { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", use = [ "extract", "reveal" ] },
+	# # JSON
+	# { mime = "application/{json,ndjson}", use = [ "edit", "reveal" ] },
+	# { mime = "*/javascript", use = [ "edit", "reveal" ] },
+	# # Empty file
+	# { mime = "inode/empty", use = [ "edit", "reveal" ] },
+	# # Virtual file system
+	# { mime = "vfs/{absent,stale}", use = "download" },
+	# # Fallback
+	# { url = "*", use = [ "open", "reveal" ] },
+]
