@@ -22,7 +22,6 @@ keymap = [
 	# Toggle
 	{ on = [ "<Space>", "b"], run = [ "toggle", "arrow 1" ], desc = "Toggle selection" },
 	{ on = "<C-a>",   run = "toggle_all --state=on", desc = "Select all" },
-	{ on = "<C-r>",   run = "toggle_all",            desc = "Invert selection" },
 
 	# Visual mode
 	{ on = "<C-v>", run = "visual_mode",         desc = "Enter visual mode (selection mode)" },
@@ -42,7 +41,7 @@ keymap = [
 	{ on = "d",         run = "remove",                      desc = "Trash selected" },
 	{ on = "D",         run = "remove --permanently",        desc = "Permanently delete selected" },
 	{ on = "%",         run = "create",                      desc = "Create a file (ends with / for directories)" },
-	{ on = "C-r",         run = "rename --cursor=before_ext",  desc = "Rename" },
+	{ on = "<C-r>",         run = "rename --cursor=before_ext",  desc = "Rename" },
 	{ on = ":",         run = "shell --block --interactive", desc = "Shell command" },
 	{ on = ".",         run = "hidden toggle",               desc = "Toggle hidden" },
 	{ on = [ "<Space>", "<Space>" ],         run = "search --via=fd",             desc = "Search files" },
