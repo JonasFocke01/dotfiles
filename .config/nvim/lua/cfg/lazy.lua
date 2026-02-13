@@ -137,7 +137,7 @@ require('lazy').setup({
     },
 
     {
-        'danilamihailov/beacon.nvim'
+        "prichrd/netrw.nvim"
     },
 
     {
