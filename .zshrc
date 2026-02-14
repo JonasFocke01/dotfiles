@@ -33,5 +33,6 @@ alias rm='echo -n "Only use **rm** if you are extra sure! \nA safer way to remov
 export XDG_CONFIG_HOME="$HOME/.config"
 export XDG_DATA_HOME="$HOME/.local/share"
 export XDG_CACHE_HOME="$HOME/.cache"
+export WEBKIT_DISABLE_COMPOSITING_MODE=1
 
 export PATH=$PATH:$HOME/.local/bin
