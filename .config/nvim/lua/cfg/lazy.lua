@@ -151,4 +151,10 @@ require('lazy').setup({
     },
 
     { 'github/copilot.vim' },
+
+    {
+        "rachartier/tiny-glimmer.nvim",
+        event = "VeryLazy",
+        priority = 10
+    }
 })
