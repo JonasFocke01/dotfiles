@@ -31,6 +31,8 @@ vim.keymap.set("v", "gy", "ygvgc")
 
 -- Q wont do what it does
 vim.keymap.set("n", "Q", "<nop>")
+-- CTRL+z wont do what it does
+vim.keymap.set("n", "<C-z>", "<nop>")
 
 -- format and save
 vim.keymap.set("n", "<leader>f", function()
