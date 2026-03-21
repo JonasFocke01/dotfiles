@@ -87,6 +87,7 @@ All sub-points inherit the markings of theyr parents.
 - xclip
 - bat
 - lz4
+- qalculate
 - gtk+3-devel
 - libsoup3-devel-3.4.2_1
 - libwebkit2gtk41-devel-2.50.4_1
@@ -163,13 +164,12 @@ All sub-points inherit the markings of theyr parents.
 - docker
 - darktable
 - inkscape
-- qalculate
+- audacity
+- kdenlive
 
 ### Media
 
 - ncspot
-- audacity
-- kdenlive
 - ffmpeg
 - [remindy](https://github.com/JonasFocke01/remindy)
 - [f] spotify
