@@ -159,6 +159,11 @@ All sub-points inherit the markings of theyr parents.
 - protonvpn
 - rsync
 - XClicker
+- Krita
+- docker
+- darktable
+- inkscape
+- qalculate
 
 ### Media
 
