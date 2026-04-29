@@ -7,30 +7,9 @@ color=#CAD3F5
 
 # Blocks (left to right)
 
-[remindy]
-interval=5
-
-[artnet_node]
-interval=60
-separator=false
-
 [printer]
 interval=60
 separator=false
-
-[arduino]
-interval=10
-separator=false
-
-[pico_debug_probe]
-interval=10
-separator=false
-
-[tigerly]
-interval=10
-
-[solar-overview]
-interval=2
 
 [battery-plus]
 command=where tlp >/dev/null 2>&1 && ./scripts/battery-plus/battery-plus
