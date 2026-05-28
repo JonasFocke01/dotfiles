@@ -169,7 +169,9 @@ All sub-points inherit the markings of theyr parents.
 
 ### Media
 
-- ncspot
+- SubTUI
+- audacity
+- kdenlive
 - ffmpeg
 - [remindy](https://github.com/JonasFocke01/remindy)
 - [f] spotify

@@ -1,0 +1,120 @@
+[app]
+replaygain = 'track' # Options: 'track', 'album', 'no' https://mpv.io/manual/stable/#options-replaygain
+gapless_playback = 'yes' # Options:  'yes', 'no', 'weak' https://mpv.io/manual/stable/#options-gapless-audio
+desktop_notifications = false
+discord_rich_presence = true
+mouse_support         = false
+default_volume = -1  # 0-100 for a preset initial volume, -1 to disable
+
+[theme]
+display_album_art  = true
+# Format: ['Light Color', 'Dark Color']
+subtle             = ['#D9DCCF', '#6B6B6BFF']
+highlight          = ['#874BFD', '#7D56F4']
+special            = ['#43BF6D', '#73F59F']
+filtered           = ['#A9A9A9', '#555555']
+
+[filters]
+titles = [] # Exclude songs with titles containing these strings
+artists = [] # Exclude songs by these artists
+album_artists = [] # Exclude songs by these album artists
+min_duration = 0 # Exclude songs with a duration shorter than or equal to this length (in seconds), 0 to disable
+genres = [] # Exclude songs belonging to these genres
+notes = [] # Exclude songs with comments/notes containing these strings
+paths = [] # Exclude songs whose file path contains these strings
+max_play_count = 0 # Exclude songs with a play count less than or equal to this number. 0 to disable
+exclude_favorites = false # Set to true to exclude songs that are marked as a favorite/starred
+max_rating = 0 # Exclude songs with a rating less than or equal to this number (1-5). 0 to disable
+
+[columns]
+  [columns.songs]
+  track_number = false
+  title = true
+  artist = true
+  album = true
+  year = false
+  genre = false
+  rating = false
+  play_count = false
+  duration = true
+
+  [columns.albums]
+  name = true
+  artist = true
+  song_count = false
+  year = false
+  genre = false
+  rating = true
+  duration = true
+
+  [columns.artists]
+  name = true
+  album_count = true
+  rating = true
+
+[keybinds]
+  [keybinds.global]
+  cycle_focus_next = ['tab']
+  cycle_focus_prev = ['shift+tab']
+  back             = ['backspace', 'esc']
+  help             = ['?']
+  quit             = ['q']
+  hard_quit        = ['ctrl+c']
+
+  [keybinds.navigation]
+  up                = ['k', 'up']
+  down              = ['j', 'down']
+  top               = ['gg']
+  bottom            = ['G']
+  select            = ['enter']
+  toggle_selection  = ['x']
+  play_shuffled     = ['shift+enter']
+  go_half_page_up   = ['ctrl+u']
+  go_half_page_down = ['ctrl+d']
+
+  [keybinds.search]
+  focus_search = ['/']
+  filter_next  = ['ctrl+n']
+  filter_prev  = ['ctrl+b']
+
+  [keybinds.library]
+  add_to_playlist = ['A']
+  add_rating      = ['R']
+  go_to_album     = ['ga']
+  go_to_artist    = ['gr']
+  rate_0          = ['0']
+  rate_1          = ['1']
+  rate_2          = ['2']
+  rate_3          = ['3']
+  rate_4          = ['4']
+  rate_5          = ['5']
+
+  [keybinds.media]
+  play_pause          = ['space']
+  next                = ['n']
+  prev                = ['b']
+  shuffle             = ['S']
+  loop                = ['L']
+  restart             = ['w']
+  rewind              = [',']
+  forward             = [';']
+  volume_up           = ['v']
+  volume_down         = ['V']
+  toggle_media_player = ['m', 'M']
+
+  [keybinds.queue]
+  toggle_queue_view = ['Q']
+  queue_next        = ['N']
+  queue_last        = ['a']
+  remove_from_queue = ['d']
+  clear_queue       = ['D']
+  move_up           = ['K']
+  move_down         = ['J']
+
+  [keybinds.favorites]
+  toggle_favorite  = ['f']
+  view_favorites   = ['F']
+
+  [keybinds.other]
+  toggle_notifications = ['s']
+  create_share_link    = ['ctrl+s']
