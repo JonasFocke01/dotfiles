@@ -1,5 +1,5 @@
 [app]
-replaygain = 'track' # Options: 'track', 'album', 'no' https://mpv.io/manual/stable/#options-replaygain
+replaygain = 'album' # Options: 'track', 'album', 'no' https://mpv.io/manual/stable/#options-replaygain
 gapless_playback = 'yes' # Options:  'yes', 'no', 'weak' https://mpv.io/manual/stable/#options-gapless-audio
 desktop_notifications = false
 discord_rich_presence = true
@@ -68,7 +68,7 @@ max_rating = 0 # Exclude songs with a rating less than or equal to this number (
   bottom            = ['G']
   select            = ['enter']
   toggle_selection  = ['x']
-  play_shuffled     = ['shift+enter']
+  play_shuffled     = ['alt+enter']
   go_half_page_up   = ['ctrl+u']
   go_half_page_down = ['ctrl+d']
 
@@ -90,7 +90,7 @@ max_rating = 0 # Exclude songs with a rating less than or equal to this number (
   rate_5          = ['5']
 
   [keybinds.media]
-  play_pause          = ['space']
+  play_pause          = ['p', 'P']
   next                = ['n']
   prev                = ['b']
   shuffle             = ['S']
