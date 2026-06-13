@@ -91,8 +91,8 @@ All sub-points inherit the markings of theyr parents.
 - gtk+3-devel
 - libsoup3-devel-3.4.2_1
 - libwebkit2gtk41-devel-2.50.4_1
+- timer (`cargo install timer`)
 - [cyme](https://github.com/tuna-f1sh/cyme/releases)
-- [sowon](https://github.com/tsoding/sowon)
 - [github_issue_roulette](https://github.com/JonasFocke01/github_issue_roulette)
 - mariadb -> `# mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql` -> `# ln -s /etc/sv/mysqld /var/service/mysqld`
 - Rust
