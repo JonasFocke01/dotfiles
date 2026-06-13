@@ -255,3 +255,7 @@ Reference: [voidsplash](https://github.com/jaylesworth/voidsplash)
 `# vi /etc/default/grub`
 => `#GRUB_TIMEOUT=5` -> `GRUB_TIMEOUT=0`
 => `# update-grub`
+
+### Firefox not rendering pdf
+
+Make sure, `pdfjs.enableHWA` in `about:config` is set to `false`
