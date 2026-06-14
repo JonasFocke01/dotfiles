@@ -154,7 +154,7 @@ All sub-points inherit the markings of theyr parents.
 - wine-32bit
 - libreoffice
 - qbittorrent
-- [f] filelight
+- ncdu
 - [f] ytDownloader -> `# flatpak override io.github.aandrew_me.ytdn --filesystem=home`
 - uget
 - protonvpn
