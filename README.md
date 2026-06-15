@@ -70,6 +70,8 @@ All sub-points inherit the markings of theyr parents.
 - qbittorrent-nox
 - moreutils
 - aspell (spellchecking)
+- aspell-de
+- aspell-en
 
 ### Softwaredevelopment
 
