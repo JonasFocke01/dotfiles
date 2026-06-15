@@ -69,6 +69,7 @@ All sub-points inherit the markings of theyr parents.
 - [p] kde5 *We probaby only need a polkit frontend, but i could not for the live of me figure this one out. Just install kde5 for now and live with the additiaonal 1GB. This is also needed for dolphin to work properly*
 - qbittorrent-nox
 - moreutils
+- aspell (spellchecking)
 
 ### Softwaredevelopment
 
