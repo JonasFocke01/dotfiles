@@ -11,6 +11,40 @@ All sub-points inherit the markings of theyr parents.
 
 ## List of software
 
+### Essentials on any desktop
+
+- feh
+- imageMagick
+- xz
+- btop
+- eza
+- fastfetch
+- aspell + aspell-de + aspell-en
+- curl
+- wget
+- git
+- qalculate
+- timer
+- cyme
+- zip
+- unzip
+- 7zip
+- ark
+- ncdu
+- rsync
+- unrar
+- ffmpeg
+- bat
+- jq
+- ripgrep
+- fzf
+- fd
+
+# Serverspecific
+
+- docker
+- cockpit
+
 ### Desktopenvironment
 
 - i3 -> `# vi /usr/share/xsessions/i3.desktop` => `Exec=i3` -> `Exec=dbus-run-session i3`
@@ -25,8 +59,6 @@ All sub-points inherit the markings of theyr parents.
 - [v] lightdm-gtk-greeter
 - dunst
 - picom
-- feh
-- imageMagick
 - ulauncher
 - udiskie
 - wmctrl
@@ -35,10 +67,9 @@ All sub-points inherit the markings of theyr parents.
 - fbv
 - NetworkManager -> `# ln -s /etc/sv/NetworkManager /var/service/NetworkManager` -> `# rm /var/service/dhcpcd`
 - network-manager-applet
-- chrony -> `# ln -s /etc/sv/chronyd /var/service/chronyd`
+- chrony -> `# ln -s /etc/sv/chronyd /var/service/chronyd` # Why is this here
 - [p] alacritty
 - [v] xorg
-- [v] xz (package with `tar` and so on)
 - [v] dbus -> `# ln -s /etc/sv/dbus /var/service/dbus`
 - [v] Audiosoftware
     - alsa-utils
@@ -49,8 +80,6 @@ All sub-points inherit the markings of theyr parents.
     - pulseaudio
 - [v] sysstat
 - [v] [nvidia drivers](https://docs.voidlinux.org/config/graphical-session/graphics-drivers/nvidia.html)
-- btop
-- eza
 - zsh
     - `chsh -s /usr/bin/zsh`
 - [p] Oh-My-Zsh
@@ -58,46 +87,30 @@ All sub-points inherit the markings of theyr parents.
     - `git clone https://github.com/zsh-users/zsh-autosuggestions $HOME/.oh-my-zsh/custom/plugins/zsh-autosuggestions`
     - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $HOME/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting`
 - [p] trash-cli
-- fastfetch
 - stow
 - [p] flatpak -> `# flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
-- firefox
+- firefox -> set `pdfjs.enableHWA` in `about:config` to `false`
 - xdg-utils -> `xdg-settings set default-web-browser firefox.desktop`
 - qemu-user-static
 - snooze
-- ranger
 - [p] kde5 *We probaby only need a polkit frontend, but i could not for the live of me figure this one out. Just install kde5 for now and live with the additiaonal 1GB. This is also needed for dolphin to work properly*
-- qbittorrent-nox
 - moreutils
-- aspell (spellchecking)
-- aspell-de
-- aspell-en
+- xclip
 
 ### Softwaredevelopment
 
-- fzf
-- fd
 - neovim
-- ripgrep
 - dbeaver
-- curl
-- wget
 - make
 - [v] SDL2-devel
 - gcc
-- git
-- jq
-- xclip
-- bat
 - lz4
-- qalculate
 - gtk+3-devel
 - libsoup3-devel-3.4.2_1
 - libwebkit2gtk41-devel-2.50.4_1
-- timer (`cargo install timer`)
-- [cyme](https://github.com/tuna-f1sh/cyme/releases)
 - [github_issue_roulette](https://github.com/JonasFocke01/github_issue_roulette)
 - mariadb -> `# mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql` -> `# ln -s /etc/sv/mysqld /var/service/mysqld`
+- cloc
 - Rust
     - x86_64-unknown-linux-gnu
         ```bash
@@ -148,23 +161,13 @@ All sub-points inherit the markings of theyr parents.
 - flameshot
 - vlc
 - gimp
-- zip
-- unzip
-- unrar
-- 7zip
-- ark
 - wine
 - wine-32bit
 - libreoffice
-- qbittorrent
-- ncdu
-- [f] ytDownloader -> `# flatpak override io.github.aandrew_me.ytdn --filesystem=home`
 - uget
 - protonvpn
-- rsync
 - XClicker
 - Krita
-- docker
 - darktable
 - inkscape
 - audacity
@@ -173,9 +176,6 @@ All sub-points inherit the markings of theyr parents.
 ### Media
 
 - SubTUI
-- audacity
-- kdenlive
-- ffmpeg
 - [remindy](https://github.com/JonasFocke01/remindy)
 - [f] spotify
 - [p] Steam (takes reeeealy long for first start)
