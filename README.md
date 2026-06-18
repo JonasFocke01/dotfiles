@@ -44,6 +44,7 @@ All sub-points inherit the markings of theyr parents.
 
 - docker
 - cockpit
+- chafa (view img via terminal)
 
 ### Desktopenvironment
 
