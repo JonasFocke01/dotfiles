@@ -1,0 +1,5 @@
+--color=off
+--disable-delete
+--show-itemcount
+-e
+-x
