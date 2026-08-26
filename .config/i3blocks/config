@@ -7,6 +7,9 @@ color=#CAD3F5
 
 # Blocks (left to right)
 
+[handy_battery_level]
+interval=10
+
 [printer]
 interval=60
 separator=false
