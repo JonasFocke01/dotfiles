@@ -19,7 +19,7 @@ fi
 
 while true; do
     nofify-send $BATTERY_LEVEL
-    if [ "$BATTERY_LEVEL" != "$CACHED_BATTERY_LEVEL" ] && [ "$BATTERY_LEVEL" = "57" ]; then
+    if [ "$BATTERY_LEVEL" != "$CACHED_BATTERY_LEVEL" ] && [ "$BATTERY_LEVEL" = "85" ]; then
         notify-send "PHONE CHARGE LIMIT REACHED" "Battery level is now at 86%"
         echo "$BATTERY_LEVEL" > "$CACHE_FILE"
     fi

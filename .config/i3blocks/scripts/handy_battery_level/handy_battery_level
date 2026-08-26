@@ -11,4 +11,4 @@ BATTERY_LEVEL=$(curl -s -H "Authorization: Bearer $TOKEN" \
                      "$HOME_ASSISTANT_URL" | \
                      jq -r '.state')
 
-echo "PHONE BATTERY LEVEL "$BATTERY_LEVEL" %"
+echo "📞 "$BATTERY_LEVEL"%"
