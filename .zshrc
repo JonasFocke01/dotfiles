@@ -23,7 +23,7 @@ setopt APPEND_HISTORY INC_APPEND_HISTORY SHARE_HISTORY
 bindkey -v # vi mode
 
 alias ls='eza -l --git --icons -a --group-directories-first -g --git-repos'
-alias vim='nvim'
+alias vim='bob run 0.12.5'
 alias ':q'=exit
 alias lsusb='cyme'
 alias cat='bat'
