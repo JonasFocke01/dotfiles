@@ -100,7 +100,7 @@ All sub-points inherit the markings of theyr parents.
 
 ### Softwaredevelopment
 
-- neovim
+- bob (nvim) -> `bob install stable`
 - dbeaver
 - make
 - [v] SDL2-devel
