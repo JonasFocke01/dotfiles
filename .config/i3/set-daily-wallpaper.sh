@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Wallhaven wallpaper url: https://wallhaven.cc/api/v1/search\?q=<SEARCHTERM(not too long and max two words)>sorting\=random | jq ".data.[0].path"
+
 wallpaper_path="$HOME/.cache/wallpaper.jpg"
 
 updateWallpaper() {
