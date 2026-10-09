@@ -14,25 +14,22 @@ All sub-points inherit the markings of theyr parents.
 ### Essentials on any desktop
 
 - feh
-- imageMagick
+- ImageMagick
 - xz
 - btop
 - eza
 - fastfetch
-- aspell + aspell-de + aspell-en
 - curl
 - wget
 - git
 - qalculate
-- timer
-- cyme
+- cyme (better lsusb)
 - zip
 - unzip
 - 7zip
 - ark
 - ncdu
 - rsync
-- unrar
 - ffmpeg
 - bat
 - jq
@@ -107,7 +104,7 @@ All sub-points inherit the markings of theyr parents.
 - gcc
 - lz4
 - gtk+3-devel
-- libsoup3-devel-3.4.2_1
+- libsoup3-devel-3.6.6_1
 - libwebkit2gtk41-devel-2.50.4_1
 - [github_issue_roulette](https://github.com/JonasFocke01/github_issue_roulette)
 - mariadb -> `# mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql` -> `# ln -s /etc/sv/mysqld /var/service/mysqld`
@@ -164,12 +161,11 @@ All sub-points inherit the markings of theyr parents.
 - vlc
 - gimp
 - wine
-- wine-32bit
 - libreoffice
 - uget
 - protonvpn
 - XClicker
-- Krita
+- krita
 - darktable
 - inkscape
 - audacity
@@ -177,9 +173,6 @@ All sub-points inherit the markings of theyr parents.
 
 ### Media
 
-- SubTUI
-- [remindy](https://github.com/JonasFocke01/remindy)
-- [f] spotify
 - [p] Steam (takes reeeealy long for first start)
     - [v] Vulkan-Tools
     - [p][v] gtk2-engines-32bit
