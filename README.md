@@ -11,6 +11,15 @@ All sub-points inherit the markings of theyr parents.
 
 ## List of software
 
+First do a system update with
+1. # xbps-install -Suy xbps
+2. # xbps-install -Suy
+
+Then enable all required remotes
+1. void-repo-nonfree # mostly nvidia stuff
+2. void-repo-multilib # 32bit libraries
+3. void-repo-multilib-nonfree # 32bit, but mostly nvidia stuff
+
 ### Essentials on any desktop
 
 - feh
@@ -74,10 +83,7 @@ All sub-points inherit the markings of theyr parents.
     - pulseaudio
 - [v] sysstat
 - [v] [nvidia drivers](https://docs.voidlinux.org/config/graphical-session/graphics-drivers/nvidia.html) (step-by-step because ndidia)
-    - void-repo-nonfree
-    - void-repo-multilib
     - nvidia
-    - void-repo-multilib-nonfree
     - nvidia-libs-32bit
 - zsh
     - `chsh -s /usr/bin/zsh`
