@@ -273,3 +273,11 @@ Reference: [voidsplash](https://github.com/jaylesworth/voidsplash)
 ### Firefox not rendering pdf
 
 Make sure, `pdfjs.enableHWA` in `about:config` is set to `false`
+
+### Browserextensions
+
+Browserextensions i use include, but are not limited to
+- ublockorigin
+- bitwarden
+- No youtube comments
+- Tabulator grinder (by jonas)
