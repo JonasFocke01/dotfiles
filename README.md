@@ -50,10 +50,6 @@ All sub-points inherit the markings of theyr parents.
 - i3lock
 - lightdm
     -> `# ln -s /etc/sv/lightdm /var/service/lightdm`
-    Autologin:
-    -> `# vi /etc/lightdm/lightdm.conf` Section `[Seat:*]`
-        => `#autologin-user= ` -> `autologin-user=USERNAME`
-        => `#autologin-user-timeout=0` -> `autologin-user-timeout=1`
 - [v] lightdm-gtk-greeter
 - dunst
 - picom
@@ -211,6 +207,8 @@ All sub-points inherit the markings of theyr parents.
 
 ## Dotfiles
 
+Reboot and set correct lightdm login session before this next section
+
 ### Adopt dotfiles
 
 1. Clone repo to $HOME (via ssh if modifications are to be expected)
@@ -235,6 +233,13 @@ With this modifications, `sudo xyz` wont prompt for a password (use this careful
     - `/usr/bin/mount`
     - `/usr/bin/mkdir`
     - `/usr/bin/tlp` (only on mobile)
+ 
+
+### Autologin with lightdm
+
+`# vi /etc/lightdm/lightdm.conf` Section `[Seat:*]`
+        => `#autologin-user= ` -> `autologin-user=USERNAME`
+        => `#autologin-user-timeout=0` -> `autologin-user-timeout=1`
 
 ### Install splashscreen
 
