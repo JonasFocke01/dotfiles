@@ -111,8 +111,8 @@ Then enable all required remotes
 - gcc
 - lz4
 - gtk+3-devel
-- libsoup3-devel-3.6.6_1
-- libwebkit2gtk41-devel-2.50.4_1
+- libsoup3-devel
+- libwebkit2gtk41-devel
 - [github_issue_roulette](https://github.com/JonasFocke01/github_issue_roulette)
 - mariadb -> `# mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql` -> `# ln -s /etc/sv/mysqld /var/service/mysqld`
 - cloc
