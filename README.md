@@ -1,4 +1,4 @@
-# My dotfiles and software collection
+/# My dotfiles and software collection
 
 This repository contains a collection of dotfiles.
 The `README` also lists common software i use and tips, how to install things to my liking.
@@ -184,7 +184,7 @@ Then enable all required remotes
 
 ### Media
 
-- [p] Steam (takes reeeealy long for first start)
+- [p] steam (takes reeeealy long for first start)
     - [v] Vulkan-Tools
     - [p][v] gtk2-engines-32bit
     - [v] libgcc-32bit
