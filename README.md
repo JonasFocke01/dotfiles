@@ -12,8 +12,8 @@ All sub-points inherit the markings of theyr parents.
 ## List of software
 
 First do a system update with
-1. # xbps-install -Suy xbps
-2. # xbps-install -Suy
+1. xbps-install -Suy xbps
+2. xbps-install -Suy
 
 Then enable all required remotes
 1. void-repo-nonfree # mostly nvidia stuff
