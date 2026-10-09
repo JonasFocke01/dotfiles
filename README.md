@@ -116,7 +116,11 @@ Then enable all required remotes
 - [github_issue_roulette](https://github.com/JonasFocke01/github_issue_roulette)
 - mariadb -> `# mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql` -> `# ln -s /etc/sv/mysqld /var/service/mysqld`
 - cloc
-- python + uv
+- uv
+- mold
+- alsa-lib-devel
+- openssl-devel
+- libudev-devel
 - Rust
     - x86_64-unknown-linux-gnu
         ```bash
