@@ -73,7 +73,12 @@ All sub-points inherit the markings of theyr parents.
     - pavucontrol
     - pulseaudio
 - [v] sysstat
-- [v] [nvidia drivers](https://docs.voidlinux.org/config/graphical-session/graphics-drivers/nvidia.html)
+- [v] [nvidia drivers](https://docs.voidlinux.org/config/graphical-session/graphics-drivers/nvidia.html) (step-by-step because ndidia)
+    - void-repo-nonfree
+    - void-repo-multilib
+    - nvidia
+    - void-repo-multilib-nonfree
+    - nvidia-libs-32bit
 - zsh
     - `chsh -s /usr/bin/zsh`
 - [p] Oh-My-Zsh
