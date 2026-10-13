@@ -160,9 +160,9 @@ Then enable all required remotes
                         return permission[action.id];
                 }
                 });
-                ```
+                ```  
            Troubleshooting advice: pico probe requires us to put a file in **directory** rules.d, not ~file~ rules.d
-      5. Add current user to `dialout` group
+      5. Add current user to `dialout` **and** `polkitd` groups
 
 
 ### Officework
