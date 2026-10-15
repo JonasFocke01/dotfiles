@@ -1,4 +1,4 @@
-/# My dotfiles and software collection
+# My dotfiles and software collection
 
 This repository contains a collection of dotfiles.
 The `README` also lists common software i use and tips, how to install things to my liking.
