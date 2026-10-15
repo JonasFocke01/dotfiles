@@ -58,6 +58,7 @@ for_window [class="ytdownloader"] floating enable
 for_window [class="jdownloader"] floating enable
 for_window [class="qBittorrent"] floating enable
 for_window [class="Rw_interface"] floating enable
+for_window [class="Tor Browser"] floating enable
 
 for_window [floating] move position center
 
