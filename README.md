@@ -98,7 +98,7 @@ Most essential software:
 - trash-cli <span style="color: gray;">[Subject to change]</span>
 - stow
 - flatpak -> `# flatpak remote-add flathub https://dl.flathub.org/repo/flathub.flatpakrepo`
-- firefox -> set `pdfjs.enableHWA` in `about:config` to `false` <span style="color: gray;">[Subject to change]</span>
+- librewolf <span style="color: gray;">[Flatpak]</span>
 - xdg-utils -> `xdg-settings set default-web-browser firefox.desktop`
 - qemu-user-static
 - snooze
