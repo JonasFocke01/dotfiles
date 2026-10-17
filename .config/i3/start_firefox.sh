@@ -1,5 +1,20 @@
 #!/bin/sh
 
+
+
+
+
+
+
+# !!!!"This is outdated!!!!
+
+
+
+
+
+
+
+
 firefox &
 export I3SOCK=$(i3 --get-socket)
 
