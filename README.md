@@ -124,6 +124,7 @@ Most essential software:
 - alsa-lib-devel
 - openssl-devel
 - libudev-devel
+- [bun](https://bun.com/docs/installation)
 - Rust
     - x86_64-unknown-linux-gnu
         ```bash
