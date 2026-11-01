@@ -85,6 +85,7 @@ Most essential software:
     - alsa-firmware
     - pavucontrol
     - pulseaudio
+    - alsa-plugins-pulseaudio
 - sysstat
 - [nvidia drivers](https://docs.voidlinux.org/config/graphical-session/graphics-drivers/nvidia.html) (step-by-step because ndidia)
     - nvidia
