@@ -118,12 +118,18 @@ Most essential software:
 - gtk+3-devel
 - libsoup3-devel
 - libwebkit2gtk41-devel
+- base-devel
+- openssl-devel
+- squashfs-tools
+- patchelf
+- desktop-file-utils
+- librsvg-devel
+- fuse-devel
 - mariadb -> `# mysql_install_db --user=mysql --basedir=/usr --datadir=/var/lib/mysql` -> `# ln -s /etc/sv/mysqld /var/service/mysqld`
 - cloc
 - uv
 - mold
 - alsa-lib-devel
-- openssl-devel
 - libudev-devel
 - [bun](https://bun.com/docs/installation)
 - Rust
